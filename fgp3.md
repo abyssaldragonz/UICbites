@@ -16,3 +16,14 @@ We all have very good response times. We expect team members to respond within 2
 # Roles
 Alice will be the Project Lead; Josephine will be the front-end developer; Chris will be the back-end developer. 
 If we run into disagreements, we will talk it out and move forward when we reach a compromise everyone is happy with. Other conflicts can be resolved in group meetings where we all communicate our issues and what we need to move forward with the project.
+
+# Chris' Brainstorming
+Track 1:
+    IdeaA - An App where you can invite ppl over to play sports with you
+    IdeaB - An app with a Tamagotchi for time spent outside(like that one app where you "water a plant" by drinking water)
+Track 2:
+    IdeaA - An app to store all of your syllabi for the semester(and past semesters), perhaps can share with others
+    IdeaB - An app that keeps track of what Office hours are available and when for your classes. Makes it very easy to see, and you wont have to check your syllabus or calendar to figure it out.
+Track 3:
+    IdeaA - An app where users can log(with a picture) cultrually relevant locations/art/food onto a shared map for others to see
+    IdeaB - An app where users can share art(with an artists statement) from their location, and the app will tell you how far away they are from you. This will help inspire artists because they will be able to see how many other talented artsists are around them.
