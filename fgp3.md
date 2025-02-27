@@ -20,7 +20,7 @@ If we run into disagreements, we will talk it out and move forward when we reach
 # Chris' Brainstorming
 Track 1:
     IdeaA - An App where you can invite ppl over to play sports with you
-    IdeaB - An app with a Tamagotchi for time spent outside(like that one app where you "water a plant" by drinking water)
+    IdeaB - An app (wellness wins) where people can share physical or mental health wins that theyve had during the week and others can support them.
 Track 2:
     IdeaA - An app to store all of your syllabi for the semester(and past semesters), perhaps can share with others
     IdeaB - An app that keeps track of what Office hours are available and when for your classes. Makes it very easy to see, and you wont have to check your syllabus or calendar to figure it out.
