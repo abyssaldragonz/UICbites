@@ -27,3 +27,14 @@ Track 2 - UIC Student Themed Application:
 Track 3 - Culturally Relevant App:
     IdeaA - App promoting local community events (that are usually spread around by word of mouth) happening around a neighborhood (eg. Pilsen with pop up music events, street markets; Chinatown with parades, dance showcases, street vendors; etc)
     IdeaB - Website containing a list of cultural heritage museums and classic architectural buildings (Chinese American Museum of Chicago, Heritage Museum of Asian Art, Black History Museum and Education Center, etc) and helping to raise donations for them
+    
+# Chris' Brainstorming
+Track 1:
+    IdeaA - An App where you can invite ppl over to play sports with you
+    IdeaB - An app (wellness wins) where people can share physical or mental health wins that theyve had during the week and others can support them.
+Track 2:
+    IdeaA - An app to store all of your syllabi for the semester(and past semesters), perhaps can share with others
+    IdeaB - An app that keeps track of what Office hours are available and when for your classes. Makes it very easy to see, and you wont have to check your syllabus or calendar to figure it out.
+Track 3:
+    IdeaA - An app where users can log(with a picture) cultrually relevant locations/art/food onto a shared map for others to see
+    IdeaB - An app where users can share art(with an artists statement) from their location, and the app will tell you how far away they are from you. This will help inspire artists because they will be able to see how many other talented artsists are around them.
