@@ -38,3 +38,14 @@ Track 2:
 Track 3:
     IdeaA - An app where users can log(with a picture) cultrually relevant locations/art/food onto a shared map for others to see
     IdeaB - An app where users can share art(with an artists statement) from their location, and the app will tell you how far away they are from you. This will help inspire artists because they will be able to see how many other talented artsists are around them.
+
+# Alice's Brainstorming
+Track 1: 
+    IdeaA - An app that only allows you screentime to certain apps after you have gone out on a walk or logged physical activity somehow.
+    IdeaB - An app that controls what time you are allowed to access certain apps. For example, not allowing you to access apps first thing in the morning or during school/work time.
+Track 2: 
+    IdeaA - An app where users can input each assignment per class throughout an entire semester in order to create an optimized study/homework schedule.
+    IdeaB - An app that contains a map of the inside of buildings in UIC, with directions on how to get to hard-to-find rooms.
+Track 3:
+    IdeaA - An app where users can join groups based on their cultural interests and communicate in order to share events to those who are interested more easily.
+    IdeaB - An app that has a map that shows you upcoming events in an area when you click on a particular neighborhood within the city.
