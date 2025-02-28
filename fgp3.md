@@ -59,6 +59,6 @@ Below are the votes for the different ideas we have. The rows are whose idea tha
 If a team member votes for a specific idea, they will put their initials in the box intersecting the track idea and the person's name that the idea originally belonged to.
 
                 |   Track 1 IdeaA   |   Track 1 IdeaB   ||   Track 2 IdeaA   |   Track 2 IdeaB   ||   Track 3 IdeaA   |   Track 3 IdeaB   |
-    Josephine   |                   |         JL        ||                   |         JL        ||                   |        JL         |
-    Chris       |         JL        |                   ||                   |         JL        ||                   |        JL         |
-    Alice       |         JL        |                   ||        JL         |                   ||       JL          |        JL         |
+    Josephine   |      CH           |      CH JL        ||                   |         JL        ||                   |        JL         |
+    Chris       |         JL        |      CH           ||                   |      CH JL        ||                   |        JL         |
+    Alice       |      CH JL        |                   ||        JL         |                   ||       JL          |     CH JL         |
