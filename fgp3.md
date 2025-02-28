@@ -53,3 +53,12 @@ Track 2:
 Track 3:
     IdeaA - An app where users can join groups based on their cultural interests and communicate in order to share events to those who are interested more easily.
     IdeaB - An app that has a map that shows you upcoming events in an area when you click on a particular neighborhood within the city.
+
+# Votes
+Below are the votes for the different ideas we have. The rows are whose idea that belongs to, and the columns are the specific ideas.
+If a team member votes for a specific idea, they will put their initials in the box intersecting the track idea and the person's name that the idea originally belonged to.
+
+                |   Track 1 IdeaA   |   Track 1 IdeaB   ||   Track 2 IdeaA   |   Track 2 IdeaB   ||   Track 3 IdeaA   |   Track 3 IdeaB   |
+    Josephine   |                   |         JL        ||                   |         JL        ||                   |        JL         |
+    Chris       |         JL        |                   ||                   |         JL        ||                   |        JL         |
+    Alice       |         JL        |                   ||        JL         |                   ||       JL          |        JL         |
