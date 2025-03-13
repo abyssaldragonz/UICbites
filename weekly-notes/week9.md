@@ -12,7 +12,7 @@ Week 9
 
 ## Recent Progress:
 - Discussed which idea to move forward with.
-- Decided on Josephine's track 2: Idea B: 
+- Decided on Josephine's track 2: Idea A: Website compiling different food options around campus with directions, options, price range, contain student discount, etc.
 - Scheduled meeting with TA, Wednesday at 4:00.
 
 ## Meeting Notes: 
