@@ -24,7 +24,7 @@ If we run into disagreements, we will talk it out and move forward when we reach
 # Josephine's Brainstorming
 Track 1 - Minimizing Screen Time: <br>
 <li> IdeaA - Checklist for completing "quests" outside the home: shopping, sports, going on a walk, arts and crafts, etc <br>
-<li> IdeaB - Digital pet that you take care of by doing outdoor tasks (tracks location when going on walks and it "exercises" alongside you, "water the plant" by drinking water, etc) 
+<li> IdeaB - Digital pet that you take care of by doing outdoor tasks (tracks location when going on walks and it "exercises" alongside you, "water the plant" by drinking water, etc) <br>
 
 <br>
 Track 2 - UIC Student Themed Application: <br>
