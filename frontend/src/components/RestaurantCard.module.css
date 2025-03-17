@@ -1,0 +1,61 @@
+
+.layout {
+    transform: translateY(9rem);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50rem;
+    height: fit-content;
+    background-color: #fff1be9e;
+    border: solid 0.5rem;
+    border-color: #f4c600 #837229 #837229 #f4c600;
+    padding: 1rem;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.text {
+    margin: 0.5rem;
+    float: left;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1px black;
+    color: rgb(255, 254, 235);
+
+}
+
+.header {
+    margin: 0.5rem;
+    float: left;
+    text-align: center;
+
+}
+
+
+
+.gui {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    /* margin: 1rem; */
+    width: 5rem;
+    height: 3rem;
+    border-radius: 0px;
+    background-color: #837229;
+    color: white;
+    border-radius: 1px;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera, and Firefox */
+}
+
+.button:hover {
+    border-color: white;
+}
