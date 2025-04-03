@@ -1,5 +1,6 @@
 import styles from './Page.module.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import RestaurantCard from '../components/RestaurantCard';
 import restaurantInfo from '../assets/sampleRestaurantInfo.json';
 
@@ -11,11 +12,13 @@ export default function ExplorePage() {
 
             <p> intro </p>
 
-            <section id="#exploreSection">
+            <section id={styles.exploreSection}>
                 {restaurantInfo && restaurantInfo.map((item, index) => (
                     <RestaurantCard key={index} restaurant={item}></RestaurantCard>
                 ))}
-            </section>     
+            </section>    
+
+            <Footer /> 
         </div>
     )
 }

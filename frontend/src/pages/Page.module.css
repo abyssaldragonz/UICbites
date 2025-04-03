@@ -13,10 +13,6 @@ section {
     justify-items: center;
 }
 
-.explore {
-    background-color: #795B5B;
-}
-
 input {
     background-color: aliceblue;
     color: #919191;
@@ -45,9 +41,20 @@ input::-webkit-input-placeholder {
     width: fit-content;
 }
 
+/* HOME PAGE */
+
+.explore {
+    background-color: #795B5B;
+}
+
 #highlight {
     background-color: #BFBEBE;
     color: #1E1E1E;
     padding: 0.5rem 15rem;
     margin-bottom: 5rem;
+}
+
+/* EXPLORE PAGE */
+#exploreSection {
+    padding: 0;
 }

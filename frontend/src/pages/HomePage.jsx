@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './Page.module.css';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function HomePage() {
     return (
@@ -22,6 +23,8 @@ export default function HomePage() {
 
             <h3> ABOUT </h3>
             <p> some about us paragraph </p>
+
+            <Footer />
         </div>
     )
 }

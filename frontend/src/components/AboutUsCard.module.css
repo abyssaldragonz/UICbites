@@ -1,0 +1,77 @@
+.layout {
+    background: linear-gradient(#6249A6, #BDADEA);
+    border-radius: 1rem;
+    outline: 0.25rem solid #29274C;
+    border-radius: 5%;
+    width: 400px;
+    height: 250px;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-template-rows: 55% 45%;
+    text-align: left;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: 15px;
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.title {
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Krona One';
+}
+
+.name {
+    color: #EFEFEF;
+    margin: 0rem 0.5rem 0rem 0.5rem; 
+    font-size: 1.75rem; 
+    font-family: 'Krona One';
+    text-decoration: underline;
+}
+
+.tag {
+    color: #FBEBD7;
+    margin: 0.5rem;
+    font-size: 0.8rem; 
+    font-weight: 300;
+    font-family: 'Krona One';
+}
+
+.circle {
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFC400;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.linksBox {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: -1.75rem 0.5rem 0rem 0.5rem;
+    user-select: none;
+}
+
+.imageLinks {
+    height: 1.5rem;
+    width: 1.5rem;
+    text-decoration: none;
+}
+
+.description {
+    margin: 0.5rem;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    font-size: 1rem;
+}

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Alice!",
+        "title": "project lead",
+        "tag": "@aliceaxe",
+        "email": "",
+        "site": "",
+        "git": "https://github.com/aliceaxe",
+        "linked": "https://www.linkedin.com/in/alicemaxelsson/",
+        "description": "placeholder aobut desription",
+        "pic": "aaaaa somethign here woah"
+    },
+    {
+        "name": "Chris!",
+        "title": "back-end programmer",
+        "tag": "@ToppiTheThinker",
+        "email": "",
+        "site": "",
+        "git": "https://github.com/ToppiTheThinker",
+        "linked": "https://www.linkedin.com/in/christopherharrisoncs/",
+        "description": "aaaa placeholder about",
+        "pic": "image here woah"
+    },
+    {
+        "name": "Josephine!",
+        "title": "front-end programmer",
+        "tag": "@abyssaldragonz",
+        "email": "",
+        "site": "",
+        "git": "https://github.com/abyssaldragonz",
+        "linked": "https://www.linkedin.com/in/josephine-b-l/",
+        "description": "aboutttt us",
+        "pic": "do some pathway here like this /images/imageName.png"
+    }
+]

@@ -1,18 +1,23 @@
 
 .layout {
-    transform: translateY(9rem);
     position: relative;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+
+    display: grid;
+  padding: 2em;
+  counter-reset: grid-items;
+  position: relative;
+  grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+
     align-items: center;
-    width: 50rem;
+    /* width: 50rem; */
     height: fit-content;
-    background-color: #fff1be9e;
-    border: solid 0.5rem;
-    border-color: #f4c600 #837229 #837229 #f4c600;
+    background-color: aliceblue;
+    border: none;
     padding: 1rem;
     gap: 0.5rem;
-    margin: 1rem;
+    margin: 5rem;
 }
 
 .text {
@@ -30,8 +35,6 @@
     text-align: center;
 
 }
-
-
 
 .gui {
     display: flex;

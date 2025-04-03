@@ -1,0 +1,33 @@
+import { Link } from 'react-router-dom';
+
+import styles from './AboutUsCard.module.css';
+// import { ReactComponent as MailIcon } from '../assets/mailIcon.svg';
+// import { ReactComponent as InternetIcon } from '../assets/internetIcon.svg';
+// import { ReactComponent as GithubIcon } from '../assets/githubIcon.svg';
+// import { ReactComponent as LinkedinIcon } from '../assets/linkedinIcon.svg';
+
+
+export default function AboutBox ({aboutBox}) {
+    return (
+        <div className={styles.layout}> 
+            
+            {/* Original image must be square! */}
+            <img className={styles.circle} src={process.env.PUBLIC_URL + `${aboutBox.pic}`} alt={''}/>
+
+            <div className={styles.about}>
+                <h3 className={styles.title}>{aboutBox.title}</h3>
+                <h1 className={styles.name}>{aboutBox.name}</h1>
+                <p className={styles.tag}>{aboutBox.tag}</p>
+
+                <div className={styles.linksBox}>
+                    {aboutBox?.email ?  (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.email} target="_blank" rel="noopener noreferrer">    <MailIcon       className={styles.imageLinks}  />    </Link>) : null}
+                    {aboutBox?.site ?   (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.site} target="_blank" rel="noopener noreferrer">     <InternetIcon   className={styles.imageLinks}  />    </Link>) : null}
+                    {aboutBox?.git ?    (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.git} target="_blank" rel="noopener noreferrer">      <GithubIcon     className={styles.imageLinks}  />    </Link>) : null}
+                    {aboutBox?.linked ? (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.linked} target="_blank" rel="noopener noreferrer">   <LinkedinIcon   className={styles.imageLinks}  />    </Link>) : null}
+                </div>
+            </div>
+
+            <p className={styles.description}>{aboutBox.description}</p>
+        </div>
+    );
+}

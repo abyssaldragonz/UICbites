@@ -34,3 +34,14 @@
     height: fit-content;
     width: fit-content;
 }
+
+.footer {
+    background-color: #1b1b1b;
+    color: aliceblue;   
+    padding: 2rem 0;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 5rem 0 0 0;
+    justify-items: center;
+}
