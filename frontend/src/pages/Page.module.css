@@ -1,0 +1,53 @@
+.layout {
+    padding: 0;
+    margin-top: 12rem;
+    align-content: start;
+}
+
+section {
+    padding: 5rem 0;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 3rem 0;
+    justify-items: center;
+}
+
+.explore {
+    background-color: #795B5B;
+}
+
+input {
+    background-color: aliceblue;
+    color: #919191;
+    border: none;
+    border-radius: 20rem;
+    margin: auto;
+    padding: 2rem;
+    text-align: left;
+    min-width: 75%;
+    font-size: 20px; 
+    left: 0rem;
+}
+
+input::-webkit-input-placeholder { 
+    position: fixed;
+    left: 2rem;
+    font-size: 20px; 
+}
+
+.link_styles {
+    display: inline-block;
+    background-color: #1E1E1E;
+    padding: 0.5rem 5em;
+    border-radius: 20rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+#highlight {
+    background-color: #BFBEBE;
+    color: #1E1E1E;
+    padding: 0.5rem 15rem;
+    margin-bottom: 5rem;
+}

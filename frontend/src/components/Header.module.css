@@ -1,0 +1,36 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #582D2D;
+    box-shadow: 0em 0.1em 1em 0.3em #1a1a1a;
+    padding: 0.5rem 2rem;
+    height: fit-content;
+    line-height: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* to prevent other elements clipping over the header (especially during animations) */
+}
+
+.linkContainer {
+    justify-self: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    height: fit-content;
+}
+
+.link_styles {
+    display: inline-block;
+    background-color: #1E1E1E;
+    padding: 0.5rem 5em;
+    border-radius: 20rem;
+    height: fit-content;
+    width: fit-content;
+}

@@ -6,7 +6,6 @@ export default function RestaurantCard({restaurant}) {
             <h1>{restaurant.name}</h1>
             <p>{restaurant.miles}</p>
             <p>{restaurant.hours}</p>
-            
         </div>
     )
 }

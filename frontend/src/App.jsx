@@ -6,6 +6,7 @@ import './App.css'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import HomePage from '../src/pages/HomePage';
 import ExplorePage from '../src/pages/ExplorePage';
+import AboutPage from '../src/pages/AboutPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path='/' element= {<HomePage />} />
           <Route path='/explore' element= {<ExplorePage />}/>
+          <Route path='/about' element= {<AboutPage />}/>
           <Route path='*' element= {<HomePage />}/>
         </Routes>
       </Router>

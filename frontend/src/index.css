@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #1a1a1a;
+  background-color: #FAC8C8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,6 +32,12 @@ body {
 
 h1 {
   font-size: 3.2em;
+  line-height: 1.1;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+h2 {
+  font-size: 2em;
   line-height: 1.1;
 }
 
