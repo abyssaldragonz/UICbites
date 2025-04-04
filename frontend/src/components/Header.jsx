@@ -4,11 +4,11 @@ import styles from './HeaderFooter.module.css';
 export default function Header() {
     return (
         <div className={styles.layout}>
-            <h1> HOME </h1>
+            <Link to="/">
+                    <h1>HOME</h1>
+            </Link>
+
             <div className={styles.linkContainer}>
-                <Link className={styles.link_styles} to="/">
-                    <h3>BUTTON</h3>
-                </Link>
 
                 <Link className={styles.link_styles} to="/explore">
                     <h3>EXPLORE</h3>

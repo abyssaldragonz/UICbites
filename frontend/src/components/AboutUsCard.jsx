@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 
 import styles from './AboutUsCard.module.css';
-// import { ReactComponent as MailIcon } from '../assets/mailIcon.svg';
-// import { ReactComponent as InternetIcon } from '../assets/internetIcon.svg';
-// import { ReactComponent as GithubIcon } from '../assets/githubIcon.svg';
-// import { ReactComponent as LinkedinIcon } from '../assets/linkedinIcon.svg';
+import MailIcon from '../assets/mailIcon.svg?react';
+import InternetIcon from '../assets/internetIcon.svg?react';
+import GithubIcon from '../assets/githubIcon.svg?react';
+import LinkedinIcon from '../assets/linkedinIcon.svg?react';
 
 
 export default function AboutBox ({aboutBox}) {
@@ -12,7 +12,7 @@ export default function AboutBox ({aboutBox}) {
         <div className={styles.layout}> 
             
             {/* Original image must be square! */}
-            <img className={styles.circle} src={process.env.PUBLIC_URL + `${aboutBox.pic}`} alt={''}/>
+            <img className={styles.circle} src={`${aboutBox.pic}`} alt={''}/>
 
             <div className={styles.about}>
                 <h3 className={styles.title}>{aboutBox.title}</h3>

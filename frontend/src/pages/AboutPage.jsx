@@ -14,11 +14,11 @@ export default function AboutPage() {
             <p> credits </p>
             <p> etc </p>
 
-            {/* <section id={styles.aboutSection}>
+            <section id={styles.aboutSection}>
                 {aboutInfo && aboutInfo.map((item, index) => (
                     <AboutUsCard key={index} aboutBox={item}></AboutUsCard>
                 ))}
-            </section>  */}
+            </section> 
 
             <Footer />
         </div>

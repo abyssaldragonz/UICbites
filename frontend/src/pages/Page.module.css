@@ -58,3 +58,9 @@ input::-webkit-input-placeholder {
 #exploreSection {
     padding: 0;
 }
+
+#aboutSection {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
