@@ -16,7 +16,8 @@ export default function RestaurantCard({restaurant}) {
             {/* First Row */}
             <div className={styles.flexRow}>
                 <h2>{restaurant.name}</h2>
-                <p>{restaurant.miles}</p>
+                <p>{restaurant.address}</p>
+                {<p>{restaurant.distance} mi</p>}
             </div>
 
             {/* Second row */}
