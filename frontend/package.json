@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "papaparse": "^5.5.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-papaparse": "^4.4.0",
     "react-router-dom": "^7.3.0"
   },
   "devDependencies": {
