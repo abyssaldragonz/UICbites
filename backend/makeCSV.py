@@ -13,6 +13,7 @@ PLACE_TYPE = "restaurant" # the types of places we are looking for in the API
 CSV_FILE = 'restaurants.csv'
 CACHE_EXPIRY_DAYS = 7  # Refresh data weekly
 
+#boring black-box function (can close it tbh)
 def calculate_distance(lat1, lon1, lat2, lon2):
     """Calculate distance between two coordinates in miles"""
     R = 3958.8  # Earth radius in miles
@@ -39,8 +40,25 @@ def get_cached_restaurants():
                 return cached_data
     return None
 
+def get_opening_hours(place_id):
+    """Fetch opening hours for a place_id using Place Details API"""
+    details_url = "https://maps.googleapis.com/maps/api/place/details/json"
+    params = {
+        "place_id": place_id,
+        "fields": "opening_hours",
+        "key": GOOGLE_API_KEY
+    }
+    response = requests.get(details_url, params=params)
+    data = response.json()
+    
+    if data.get('status') == 'OK':
+        opening_hours = data['result'].get('opening_hours', {}).get('weekday_text', [])
+        return "\n".join(opening_hours)
+    return "N/A"
+
 def fetch_and_cache_restaurants():
     """Fetch from Google Places API and cache results"""
+    #we are using the nearby search API to get restaurants near the location
     url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
     all_results = []
     next_page_token = None
@@ -82,16 +100,24 @@ def fetch_and_cache_restaurants():
             break
 
     # Prepare CSV data
-    csv_data = [{
-        'last_updated': datetime.now().isoformat(),
-        'name': place.get('name', ''),
-        'address': place.get('vicinity', ''),
-        'rating': str(place.get('rating', '')),
-        'distance': str(round(place.get('distance', 0), 2)),  # Round to 2 decimal places
-    } for place in all_results]
+    csv_data = []
+    for place in all_results:
+        place_id = place.get('place_id', '')
+        opening_hours = get_opening_hours(place_id)
+
+        csv_data.append({
+            'last_updated': datetime.now().isoformat(),
+            'name': place.get('name', ''),
+            'address': place.get('vicinity', ''),
+            'rating': str(place.get('rating', '')),
+            'distance': str(round(place.get('distance', 0), 2)),
+            'place_id': place_id,
+            'hours': opening_hours
+        })
+
 
     # Write to CSV
-    with open(CSV_FILE, mode='w', newline='') as file:
+    with open(CSV_FILE, mode='w', newline='', encoding='utf-8') as file:
         writer = csv.DictWriter(file, fieldnames=csv_data[0].keys())
         writer.writeheader()
         writer.writerows(csv_data)
@@ -104,7 +130,7 @@ def update_restaurants():
     if not cached:
         print("No valid cache found. Fetching fresh data...")
         fresh_data = fetch_and_cache_restaurants()
-        print(f"Successfully updated {len(fresh_data)-1} restaurants")
+        print(f"Successfully updated {len(fresh_data)} restaurants")
     else:
         print("Cache is still valid. No update needed.")
 

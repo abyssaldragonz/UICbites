@@ -18,11 +18,21 @@ def home():
     # If button was clicked
     if request.method == 'POST':
         show_data = True
-        with open(CSV_FILE, 'r') as file:
+        with open(CSV_FILE, 'r', encoding='utf-8') as file:
             csv_reader = csv.reader(file)
             headers = next(csv_reader)
-            csv_data = list(csv_reader)
-            # heapq.heappush(csv_data, (1, list(csv_reader)))
+
+            heap = []
+            for row in csv_reader:
+                try:
+                    priority = -float(row[1])
+                    heapq.heappush(heap, (priority, row))
+                except ValueError:
+                    continue  # skip bad rows
+
+        # Convert heap to sorted list (optional)
+        csv_data = [item[1] for item in heapq.nsmallest(len(heap), heap)]
+
     
     #renders HTML files
     return render_template('index.html', 

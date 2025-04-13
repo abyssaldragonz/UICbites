@@ -1,61 +1,385 @@
-last_updated,name,address,rating,distance
-2025-04-09T11:16:03.101860,Wazwan UIC,"750 South Halsted Street Suite 003, Chicago",2,0.0
-2025-04-09T11:16:03.101878,Subway,"750 S. Halsted St Uic Blg #605,Rm 090,290A&290aa, Chicago",2.6,0.0
-2025-04-09T11:16:03.101883,Moe's Southwest Grill,"750 South Halsted Street, Chicago",3.6,0.0
-2025-04-09T11:16:03.101887,Panda Express,"750 South Halsted Street, Chicago",2.4,0.0
-2025-04-09T11:16:03.101890,Chick-fil-A,"Student Center East, 750 South Halsted Street, Chicago",3.3,0.02
-2025-04-09T11:16:03.101893,Farmer's Fridge,"750 South Halsted Street, Chicago",,0.02
-2025-04-09T11:16:03.101896,Dunkin',"University of Illinois Chicago, Circle Center, 750 South Halsted Street, Chicago",2.7,0.02
-2025-04-09T11:16:03.101900,UIC United Table,"750 South Halsted Street, Chicago",1,0.02
-2025-04-09T11:16:03.101903,Tikka Curry by Jigar's Kitchen,"Student Center East Tower, UIC, 750 South Halsted Street, Chicago",,0.04
-2025-04-09T11:16:03.101905,Tropical Smoothie Cafe,"737 South Halsted Street, Chicago",4,0.09
-2025-04-09T11:16:03.101908,Farmer's Fridge,"801 South Morgan Street, Chicago",,0.14
-2025-04-09T11:16:03.101911,Tuscany on Taylor,"1014 West Taylor Street, Chicago",4.6,0.26
-2025-04-09T11:16:03.101913,Curry On Fire indian Cuisine,"1030 West Taylor Street, Chicago",3.8,0.28
-2025-04-09T11:16:03.101916,Fontano's Subs,"1058 West Polk Street, Chicago",4.7,0.28
-2025-04-09T11:16:03.101918,Carm's Beef and Italian Ice,"1057 West Polk Street, Chicago",4.4,0.28
-2025-04-09T11:16:03.101921,Farmer's Fridge,"Located across from Au Bon Pain, 1007 West Harrison Street, Chicago",,0.29
-2025-04-09T11:16:03.101923,Little Joe's,"1041 West Taylor Street, Chicago",4.4,0.31
-2025-04-09T11:16:03.101926,Giordano's,"815 West Van Buren Street, Chicago",4.5,0.31
-2025-04-09T11:16:03.101929,La Katrina Aut�ntica,"1041 West Taylor Street, Chicago",4.1,0.31
-2025-04-09T11:16:03.101931,Thai Bowl,"1049 West Taylor Street, Chicago",4.2,0.32
-2025-04-09T11:16:03.101934,Tufano's Vernon Park Tap,"1073 West Vernon Park Place, Chicago",4.6,0.32
-2025-04-09T11:16:03.101937,7-Eleven,"833 West Van Buren Street 400 Green, Chicago",2.4,0.32
-2025-04-09T11:16:03.101939,Bowl & Sushi,"1062 West Taylor Street, Chicago",4.6,0.33
-2025-04-09T11:16:03.101942,Jimmy John's,"812 West Van Buren Street, Chicago",3.6,0.34
-2025-04-09T11:16:03.101945,Mario's Italian Lemonade,"1068 West Taylor Street, Chicago",4.7,0.34
-2025-04-09T11:16:03.101947,Primos Chicago Pizza,"816 West Van Buren Street, Chicago",3.5,0.34
-2025-04-09T11:16:03.101950,Raising Cane's Chicken Fingers,"564 West Taylor Street, Chicago",3.9,0.35
-2025-04-09T11:16:03.101952,Al's #1 Italian Beef,"1079 West Taylor Street, Chicago",4.1,0.36
-2025-04-09T11:16:03.101955,Subway,"1100 West Taylor Street, Chicago",3.9,0.37
-2025-04-09T11:16:03.101957,Farmer's Fridge,"Located in the 2nd floor vending room, 555 West Harrison Street, Chicago",,0.37
-2025-04-09T11:16:03.101960,Ghareeb Nawaz UIC,"807 West Roosevelt Road, Chicago",3.9,0.37
-2025-04-09T11:16:03.101962,La Adelita Food Truck,"1104 West Taylor Street, Chicago",4,0.37
-2025-04-09T11:16:03.101965,Jarabe - Taqueria,"1104 West Taylor Street, Chicago",4.5,0.37
-2025-04-09T11:16:03.101967,Flames Grill,"Curtis Granderson Stadium, 901 West Roosevelt Road, Chicago",5,0.38
-2025-04-09T11:16:03.101970,9 Muses Bar & Grill,"315 South Halsted Street, Chicago",4.6,0.38
-2025-04-09T11:16:03.101973,Borscht u Diani,"315 South Peoria Street, Chicago",,0.39
-2025-04-09T11:16:03.101976,Xi'an Cuisine,"769 West Jackson Boulevard Unit 103, Chicago",4.3,0.4
-2025-04-09T11:16:03.101978,ChickWow,"1120 West Taylor Street, Chicago",,0.4
-2025-04-09T11:16:03.101980,Busy Burger,"1120 West Taylor Street, Chicago",4.4,0.4
-2025-04-09T11:16:03.101984,Meli Cafe,"301 South Halsted Street, Chicago",4.3,0.41
-2025-04-09T11:16:03.101987,TBK Greektown (Taco Burrito King),"811 West Jackson Boulevard, Chicago",4.1,0.41
-2025-04-09T11:16:03.101989,7-Eleven,"560 West Grenshaw Street, Chicago",2.7,0.41
-2025-04-09T11:16:03.101992,Philly's Best,"769 West Jackson Boulevard, Chicago",4.3,0.41
-2025-04-09T11:16:03.101994,Manny's Cafeteria & Delicatessen,"1141 South Jefferson Street, Chicago",4.5,0.41
-2025-04-09T11:16:03.101997,Chez Jo�l,"1119 West Taylor Street, Chicago",4.7,0.41
-2025-04-09T11:16:03.101999,Farmer's Fridge,"Located in the 2nd floor lunchroom, 307 South Sangamon Street, Chicago",,0.41
-2025-04-09T11:16:03.102001,Chick-fil-A South Loop,"1106 South Clinton Street, Chicago",3.9,0.41
-2025-04-09T11:16:03.102004,Portillo's Chicago � Canal and Taylor,"520 West Taylor Street, Chicago",4.2,0.41
-2025-04-09T11:16:03.102006,Buffalo Wild Wings,"513 West Taylor Street, Chicago",3.1,0.42
-2025-04-09T11:16:03.102008,Haire's Gulf Shrimp. South Loop,"1156 South Jefferson Street, Chicago",4.2,0.42
-2025-04-09T11:16:03.102012,Zeus Restaurant,"806 West Jackson Boulevard, Chicago",4.5,0.42
-2025-04-09T11:16:03.102015,IDOF - I Dream of Falafel,"1129 West Taylor Street, Chicago",4.2,0.43
-2025-04-09T11:16:03.102017,Mr Greek Gyros - Halsted St,"234 South Halsted Street, Chicago",4.2,0.43
-2025-04-09T11:16:03.102020,The Outpost Mexican Eatery,"520 West Harrison Street, Chicago",4.5,0.43
-2025-04-09T11:16:03.102023,Subway,"808 West Jackson Boulevard, Chicago",3,0.43
-2025-04-09T11:16:03.102025,Himalayan Sherpa kitchen,"518 West Harrison Street, Chicago",4.9,0.43
-2025-04-09T11:16:03.102027,Panera Bread,"600 West Van Buren Street Suite 102, Chicago",2.6,0.43
-2025-04-09T11:16:03.102030,Tamashii Ramen,"810 West Jackson Boulevard, Chicago",4.5,0.43
-2025-04-09T11:16:03.102032,Popeyes Louisiana Kitchen,"1251 South Halsted Street, Chicago",3.7,0.43
-2025-04-09T11:16:03.102035,Jimmy John's,"1133 West Taylor Street, Chicago",3.9,0.43
+last_updated,name,address,rating,distance,place_id,hours
+2025-04-12T23:02:30.776549,Wazwan UIC,"750 South Halsted Street Suite 003, Chicago",2,0.0,ChIJvbXihkgtDogRN2rRLm5g9tc,
+2025-04-12T23:02:31.190607,Subway,"750 S. Halsted St Uic Blg #605,Rm 090,290A&290aa, Chicago",2.5,0.0,ChIJ8UPfIfAsDogRDGiRcoqYbRc,"Monday: 8:00 AM – 8:00 PM
+Tuesday: 8:00 AM – 8:00 PM
+Wednesday: 8:00 AM – 8:00 PM
+Thursday: 8:00 AM – 8:00 PM
+Friday: 8:00 AM – 6:00 PM
+Saturday: Closed
+Sunday: Closed"
+2025-04-12T23:02:31.389740,Moe's Southwest Grill,"750 South Halsted Street, Chicago",3.6,0.0,ChIJ95QawuQtDogR-5dcUoTzecw,"Monday: 9:00 AM – 7:00 PM
+Tuesday: 9:00 AM – 7:00 PM
+Wednesday: 9:00 AM – 7:00 PM
+Thursday: 9:00 AM – 7:00 PM
+Friday: 9:00 AM – 5:00 PM
+Saturday: Closed
+Sunday: Closed"
+2025-04-12T23:02:31.654754,Panda Express,"750 South Halsted Street, Chicago",2.4,0.0,ChIJhdi4oegsDogROfZMlA98NzE,
+2025-04-12T23:02:31.903122,Chick-fil-A,"Student Center East, 750 South Halsted Street, Chicago",3.3,0.02,ChIJ7zYpn-gsDogRDOpqPyFB-IM,"Monday: 7:30 AM – 8:00 PM
+Tuesday: 7:30 AM – 8:00 PM
+Wednesday: 7:30 AM – 8:00 PM
+Thursday: 7:30 AM – 8:00 PM
+Friday: 7:30 AM – 7:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed"
+2025-04-12T23:02:32.106870,Farmer's Fridge,"750 South Halsted Street, Chicago",,0.02,ChIJ2Th5HhwtDogRVd31kl7ei90,"Monday: 8:00 AM – 6:00 PM
+Tuesday: 8:00 AM – 6:00 PM
+Wednesday: 8:00 AM – 6:00 PM
+Thursday: 8:00 AM – 6:00 PM
+Friday: 8:00 AM – 6:00 PM
+Saturday: Closed
+Sunday: Closed"
+2025-04-12T23:02:32.618807,Dunkin',"University of Illinois Chicago, Circle Center, 750 South Halsted Street, Chicago",2.7,0.02,ChIJyb_IpOgsDogR1BoPbqXG3SA,"Monday: 6:30 AM – 10:00 PM
+Tuesday: 6:30 AM – 10:00 PM
+Wednesday: 6:30 AM – 10:00 PM
+Thursday: 6:30 AM – 10:00 PM
+Friday: 6:30 AM – 10:00 PM
+Saturday: 7:00 AM – 6:00 PM
+Sunday: 7:00 AM – 6:00 PM"
+2025-04-12T23:02:32.823662,UIC United Table,"750 South Halsted Street, Chicago",1,0.02,ChIJqzHZDwAtDogRwq6yveUB3r0,
+2025-04-12T23:02:33.028949,Tikka Curry by Jigar's Kitchen,"Student Center East Tower, UIC, 750 South Halsted Street, Chicago",,0.04,ChIJ4RrsEAAtDogRFOb9Y5pxjDA,
+2025-04-12T23:02:33.432565,Tropical Smoothie Cafe,"737 South Halsted Street, Chicago",4,0.09,ChIJ_y698ugsDogRZncDN8_wkD8,"Monday: 9:00 AM – 10:00 PM
+Tuesday: 9:00 AM – 10:00 PM
+Wednesday: 9:00 AM – 10:00 PM
+Thursday: 9:00 AM – 10:00 PM
+Friday: 9:00 AM – 8:00 PM
+Saturday: 10:00 AM – 6:00 PM
+Sunday: Closed"
+2025-04-12T23:02:33.717329,Farmer's Fridge,"801 South Morgan Street, Chicago",,0.14,ChIJCbJ0oiUtDogRPIBco4GSyC8,"Monday: Open 24 hours
+Tuesday: Open 24 hours
+Wednesday: Open 24 hours
+Thursday: Open 24 hours
+Friday: Open 24 hours
+Saturday: Open 24 hours
+Sunday: Open 24 hours"
+2025-04-12T23:02:33.950378,Tuscany on Taylor,"1014 West Taylor Street, Chicago",4.6,0.26,ChIJV4wnQOQsDogRdGo2O6bsRVc,"Monday: Closed
+Tuesday: Closed
+Wednesday: 4:00 – 9:00 PM
+Thursday: 4:00 – 9:00 PM
+Friday: 4:00 – 10:00 PM
+Saturday: 4:00 – 10:00 PM
+Sunday: 4:00 – 9:00 PM"
+2025-04-12T23:02:34.155792,Curry On Fire indian Cuisine,"1030 West Taylor Street, Chicago",3.8,0.28,ChIJ2YUlE-QsDogRXkK0Dq661W8,"Monday: Closed
+Tuesday: Closed
+Wednesday: 12:30 – 9:00 PM
+Thursday: 12:30 – 9:00 PM
+Friday: 12:30 – 9:00 PM
+Saturday: 12:30 – 9:00 PM
+Sunday: 12:30 – 9:00 PM"
+2025-04-12T23:02:34.463300,Fontano's Subs,"1058 West Polk Street, Chicago",4.7,0.28,ChIJG5qZS-EsDogRzJ1usu42NU8,"Monday: 9:00 AM – 6:00 PM
+Tuesday: 9:00 AM – 6:00 PM
+Wednesday: 9:00 AM – 6:00 PM
+Thursday: 9:00 AM – 6:00 PM
+Friday: 9:00 AM – 6:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed"
+2025-04-12T23:02:34.771779,Carm's Beef and Italian Ice,"1057 West Polk Street, Chicago",4.4,0.28,ChIJT_CyTeEsDogRciE_sfwxlBE,"Monday: 9:00 AM – 7:30 PM
+Tuesday: 9:00 AM – 7:30 PM
+Wednesday: 9:00 AM – 7:30 PM
+Thursday: 9:00 AM – 7:30 PM
+Friday: 9:00 AM – 7:30 PM
+Saturday: 9:00 AM – 5:00 PM
+Sunday: Closed"
+2025-04-12T23:02:35.075236,Farmer's Fridge,"Located across from Au Bon Pain, 1007 West Harrison Street, Chicago",,0.29,ChIJ7XG5GX4tDogRRfKzpoXonbI,"Monday: 7:00 AM – 8:00 PM
+Tuesday: 7:00 AM – 8:00 PM
+Wednesday: 7:00 AM – 8:00 PM
+Thursday: 7:00 AM – 8:00 PM
+Friday: 7:00 AM – 8:00 PM
+Saturday: 7:00 AM – 8:00 PM
+Sunday: 7:00 AM – 8:00 PM"
+2025-04-12T23:02:35.383362,Little Joe's,"1041 West Taylor Street, Chicago",4.4,0.31,ChIJH9XYc-QsDogRu34A3VzLBBI,"Monday: 4:00 PM – 12:00 AM
+Tuesday: 4:00 PM – 2:00 AM
+Wednesday: 4:00 PM – 2:00 AM
+Thursday: 3:00 PM – 2:00 AM
+Friday: 3:00 PM – 2:00 AM
+Saturday: 11:00 AM – 2:00 AM
+Sunday: 11:00 AM – 12:00 AM"
+2025-04-12T23:02:35.588271,Giordano's,"815 West Van Buren Street, Chicago",4.5,0.31,ChIJD2CpscIsDogRLMsW3tLKnME,"Monday: 11:00 AM – 10:00 PM
+Tuesday: 11:00 AM – 10:00 PM
+Wednesday: 11:00 AM – 10:00 PM
+Thursday: 11:00 AM – 10:00 PM
+Friday: 11:00 AM – 11:00 PM
+Saturday: 11:00 AM – 11:00 PM
+Sunday: 11:00 AM – 10:00 PM"
+2025-04-12T23:02:35.898923,La Katrina Auténtica,"1041 West Taylor Street, Chicago",4,0.31,ChIJn6vXKUctDogRXonZhOkJtWs,"Monday: 4:00 PM – 12:00 AM
+Tuesday: 4:00 PM – 12:00 AM
+Wednesday: 4:00 PM – 12:00 AM
+Thursday: 4:00 PM – 12:00 AM
+Friday: 4:00 PM – 12:00 AM
+Saturday: 11:00 AM – 1:00 AM
+Sunday: 11:00 AM – 10:00 PM"
+2025-04-12T23:02:36.204269,Thai Bowl,"1049 West Taylor Street, Chicago",4.2,0.32,ChIJIS2xdeQsDogR6lM4WLXiLG4,"Monday: 11:00 AM – 7:30 PM
+Tuesday: 11:00 AM – 7:30 PM
+Wednesday: 11:00 AM – 7:30 PM
+Thursday: 11:00 AM – 7:30 PM
+Friday: 11:00 AM – 7:30 PM
+Saturday: 11:00 AM – 7:30 PM
+Sunday: 11:00 AM – 7:30 PM"
+2025-04-12T23:02:36.817171,Tufano's Vernon Park Tap,"1073 West Vernon Park Place, Chicago",4.6,0.32,ChIJYymCJOEsDogRkh7RJpjEk3k,"Monday: Closed
+Tuesday: 11:00 AM – 9:00 PM
+Wednesday: 11:00 AM – 9:00 PM
+Thursday: 11:00 AM – 9:00 PM
+Friday: 11:00 AM – 9:00 PM
+Saturday: 4:00 – 9:30 PM
+Sunday: 3:00 – 8:45 PM"
+2025-04-12T23:02:37.022080,7-Eleven,"833 West Van Buren Street 400 Green, Chicago",2.4,0.32,ChIJER7RQ_AsDogRYz-55X70g9s,"Monday: Open 24 hours
+Tuesday: Open 24 hours
+Wednesday: Open 24 hours
+Thursday: Open 24 hours
+Friday: Open 24 hours
+Saturday: Open 24 hours
+Sunday: Open 24 hours"
+2025-04-12T23:02:37.331881,Jimmy John's,"812 West Van Buren Street, Chicago",3.6,0.34,ChIJVTHjs8IsDogRd0xQXXV6eRw,"Monday: 10:00 AM – 9:00 PM
+Tuesday: 10:00 AM – 9:00 PM
+Wednesday: 10:00 AM – 9:00 PM
+Thursday: 10:00 AM – 9:00 PM
+Friday: 10:00 AM – 9:00 PM
+Saturday: 10:00 AM – 9:00 PM
+Sunday: 10:00 AM – 9:00 PM"
+2025-04-12T23:02:37.638844,Mario's Italian Lemonade,"1068 West Taylor Street, Chicago",4.7,0.34,ChIJ952t8uMsDogRoCWg8HbqYck,
+2025-04-12T23:02:37.944536,Primos Chicago Pizza,"816 West Van Buren Street, Chicago",3.5,0.34,ChIJMyxk4zgtDogRr7o5ZDt_MXI,"Monday: 8:00 AM – 2:00 AM
+Tuesday: 8:00 AM – 2:00 AM
+Wednesday: 8:00 AM – 2:00 AM
+Thursday: 8:00 AM – 2:00 AM
+Friday: 8:00 AM – 7:00 PM
+Saturday: Closed
+Sunday: Closed"
+2025-04-12T23:02:38.251651,Raising Cane's Chicken Fingers,"564 West Taylor Street, Chicago",3.5,0.35,ChIJLajboRMtDogR5cuHoFTh500,"Monday: 10:00 AM – 1:00 AM
+Tuesday: 10:00 AM – 1:00 AM
+Wednesday: 10:00 AM – 1:00 AM
+Thursday: 10:00 AM – 1:00 AM
+Friday: 10:00 AM – 2:00 AM
+Saturday: 10:00 AM – 2:00 AM
+Sunday: 10:00 AM – 1:00 AM"
+2025-04-12T23:02:38.455247,Al's #1 Italian Beef,"1079 West Taylor Street, Chicago",4.1,0.36,ChIJ6SVtkeMsDogRhrNdhkJarlY,"Monday: 9:00 AM – 11:00 PM
+Tuesday: 9:00 AM – 11:00 PM
+Wednesday: 9:00 AM – 11:00 PM
+Thursday: 9:00 AM – 11:00 PM
+Friday: 9:00 AM – 11:00 PM
+Saturday: 10:00 AM – 11:00 PM
+Sunday: Closed"
+2025-04-12T23:02:38.762865,Subway,"1100 West Taylor Street, Chicago",3.9,0.37,ChIJA6JhleMsDogRvf0ONFPmKmM,"Monday: 7:00 AM – 10:00 PM
+Tuesday: 7:00 AM – 10:00 PM
+Wednesday: 7:00 AM – 10:00 PM
+Thursday: 7:00 AM – 10:00 PM
+Friday: 7:00 AM – 10:00 PM
+Saturday: 9:00 AM – 10:00 PM
+Sunday: 9:00 AM – 10:00 PM"
+2025-04-12T23:02:39.187471,Farmer's Fridge,"Located in the 2nd floor vending room, 555 West Harrison Street, Chicago",,0.37,ChIJ8dHjiHwtDogRLjZIKJUN4TI,"Monday: 8:00 AM – 4:00 PM
+Tuesday: 8:00 AM – 4:00 PM
+Wednesday: 8:00 AM – 4:00 PM
+Thursday: 8:00 AM – 4:00 PM
+Friday: 8:00 AM – 4:00 PM
+Saturday: 8:00 AM – 4:00 PM
+Sunday: 8:00 AM – 4:00 PM"
+2025-04-12T23:02:39.375587,Ghareeb Nawaz UIC,"807 West Roosevelt Road, Chicago",3.9,0.37,ChIJQ5WH6-8sDogRiOSiAaMLbus,"Monday: 9:30 AM – 10:00 PM
+Tuesday: 9:30 AM – 10:00 PM
+Wednesday: 9:30 AM – 10:00 PM
+Thursday: 9:30 AM – 10:00 PM
+Friday: 9:30 AM – 10:00 PM
+Saturday: 10:00 AM – 10:00 PM
+Sunday: 10:00 AM – 10:00 PM"
+2025-04-12T23:02:39.638211,La Adelita Food Truck,"1104 West Taylor Street, Chicago",4,0.37,ChIJm_xy4d4tDogRed9H5zO4_SQ,"Monday: 8:00 AM – 9:00 PM
+Tuesday: 8:00 AM – 9:00 PM
+Wednesday: 8:00 AM – 9:00 PM
+Thursday: 8:00 AM – 9:00 PM
+Friday: 8:00 AM – 9:00 PM
+Saturday: 8:00 AM – 9:00 PM
+Sunday: Closed"
+2025-04-12T23:02:39.849590,Jarabe - Taqueria,"1104 West Taylor Street, Chicago",4.5,0.37,ChIJ97LFfG4tDogRNbWOcTA_pFc,"Monday: 8:30 AM – 9:00 PM
+Tuesday: 8:30 AM – 9:00 PM
+Wednesday: 8:30 AM – 9:00 PM
+Thursday: 8:30 AM – 9:00 PM
+Friday: 8:30 AM – 9:00 PM
+Saturday: 8:30 AM – 9:00 PM
+Sunday: Closed"
+2025-04-12T23:02:40.203612,Flames Grill,"Curtis Granderson Stadium, 901 West Roosevelt Road, Chicago",5,0.38,ChIJVddx-aAtDogRQ5PTKK74EqQ,
+2025-04-12T23:02:40.465141,9 Muses Bar & Grill,"315 South Halsted Street, Chicago",4.6,0.38,ChIJ_QQbw8IsDogRM810deNaiss,"Monday: 11:00 AM – 10:30 PM
+Tuesday: 11:00 AM – 10:30 PM
+Wednesday: 11:00 AM – 10:30 PM
+Thursday: 11:00 AM – 10:30 PM
+Friday: 11:00 AM – 12:00 AM
+Saturday: 12:00 PM – 12:00 AM
+Sunday: 12:00 – 10:30 PM"
+2025-04-12T23:02:40.707925,Borscht u Diani,"315 South Peoria Street, Chicago",,0.39,ChIJo_ClfNktDogRct4mnUFsEWo,"Monday: Closed
+Tuesday: Closed
+Wednesday: Closed
+Thursday: Closed
+Friday: Open 24 hours
+Saturday: Open 24 hours
+Sunday: Open 24 hours"
+2025-04-12T23:02:40.991904,Xi'an Cuisine,"769 West Jackson Boulevard Unit 103, Chicago",4.3,0.4,ChIJw9nJYKItDogRZKWP1BJcSsE,"Monday: 11:00 AM – 9:30 PM
+Tuesday: 11:00 AM – 9:30 PM
+Wednesday: 11:00 AM – 9:30 PM
+Thursday: 11:00 AM – 9:30 PM
+Friday: 11:00 AM – 9:30 PM
+Saturday: 11:00 AM – 9:30 PM
+Sunday: 11:00 AM – 9:30 PM"
+2025-04-12T23:02:41.218658,ChickWow,"1120 West Taylor Street, Chicago",,0.4,ChIJM8lVFAAtDogRBj9CmjW2NP4,"Monday: 10:00 AM – 12:00 AM
+Tuesday: 10:00 AM – 12:00 AM
+Wednesday: 10:00 AM – 12:00 AM
+Thursday: 10:00 AM – 12:00 AM
+Friday: 10:00 AM – 12:00 AM
+Saturday: 10:00 AM – 12:00 AM
+Sunday: 10:00 AM – 12:00 AM"
+2025-04-12T23:02:41.834886,Busy Burger,"1120 West Taylor Street, Chicago",4.4,0.4,ChIJ9Uqwt-MsDogRRigrKEAscow,"Monday: 10:00 AM – 12:00 AM
+Tuesday: 10:00 AM – 12:00 AM
+Wednesday: 10:00 AM – 12:00 AM
+Thursday: 10:00 AM – 12:00 AM
+Friday: 10:00 AM – 12:00 AM
+Saturday: 10:00 AM – 12:00 AM
+Sunday: 10:00 AM – 12:00 AM"
+2025-04-12T23:02:42.038848,Meli Cafe,"301 South Halsted Street, Chicago",4.3,0.41,ChIJU_Z_6MIsDogRngTg-gO8Hz0,"Monday: 7:00 AM – 2:00 PM
+Tuesday: 7:00 AM – 2:00 PM
+Wednesday: 7:00 AM – 2:00 PM
+Thursday: 7:00 AM – 2:00 PM
+Friday: 7:00 AM – 3:00 PM
+Saturday: 7:00 AM – 3:00 PM
+Sunday: 7:00 AM – 3:00 PM"
+2025-04-12T23:02:42.172297,TBK Greektown (Taco Burrito King),"811 West Jackson Boulevard, Chicago",4.1,0.41,ChIJvw8l0cIsDogRmKcPblLtB9M,"Monday: 10:00 AM – 2:00 AM
+Tuesday: 10:00 AM – 2:00 AM
+Wednesday: 10:00 AM – 2:00 AM
+Thursday: 10:00 AM – 2:00 AM
+Friday: 10:00 AM – 3:00 AM
+Saturday: 10:00 AM – 3:00 AM
+Sunday: 10:00 AM – 2:00 AM"
+2025-04-12T23:02:42.448076,7-Eleven,"560 West Grenshaw Street, Chicago",2.7,0.41,ChIJK1RU9CgtDogRhA7fpvWw9uk,"Monday: Open 24 hours
+Tuesday: Open 24 hours
+Wednesday: Open 24 hours
+Thursday: Open 24 hours
+Friday: Open 24 hours
+Saturday: Open 24 hours
+Sunday: Open 24 hours"
+2025-04-12T23:02:42.857678,Philly's Best,"769 West Jackson Boulevard, Chicago",4.3,0.41,ChIJO3Jf5sIsDogR1qCb1zxAewc,"Monday: 10:30 AM – 12:00 AM
+Tuesday: 10:30 AM – 1:00 AM
+Wednesday: 10:30 AM – 1:00 AM
+Thursday: 10:30 AM – 1:00 AM
+Friday: 10:30 AM – 1:00 AM
+Saturday: 11:00 AM – 12:00 AM
+Sunday: 12:00 – 11:00 PM"
+2025-04-12T23:02:43.165379,Manny's Cafeteria & Delicatessen,"1141 South Jefferson Street, Chicago",4.5,0.41,ChIJHUgwtu0sDogR1e1GW8Y73QI,"Monday: 8:00 AM – 3:30 PM
+Tuesday: 8:00 AM – 7:30 PM
+Wednesday: 8:00 AM – 7:30 PM
+Thursday: 8:00 AM – 7:30 PM
+Friday: 8:00 AM – 7:30 PM
+Saturday: 8:00 AM – 7:30 PM
+Sunday: 8:00 AM – 3:30 PM"
+2025-04-12T23:02:43.472249,Chez Joël,"1119 West Taylor Street, Chicago",4.7,0.41,ChIJB11Kt-MsDogRdRcKFaGscAI,"Monday: 5:00 – 9:00 PM
+Tuesday: 5:00 – 9:00 PM
+Wednesday: 5:00 – 9:00 PM
+Thursday: 5:00 – 9:00 PM
+Friday: 5:00 – 10:00 PM
+Saturday: 5:00 – 10:00 PM
+Sunday: Closed"
+2025-04-12T23:02:43.682102,Farmer's Fridge,"Located in the 2nd floor lunchroom, 307 South Sangamon Street, Chicago",,0.41,ChIJuyGiip8tDogR6rk_LkLLhB4,"Monday: 8:00 AM – 5:00 PM
+Tuesday: 8:00 AM – 5:00 PM
+Wednesday: 8:00 AM – 5:00 PM
+Thursday: 8:00 AM – 5:00 PM
+Friday: 8:00 AM – 5:00 PM
+Saturday: Closed
+Sunday: Closed"
+2025-04-12T23:02:43.944088,Chick-fil-A South Loop,"1106 South Clinton Street, Chicago",3.9,0.41,ChIJL2jWs-EtDogRv6ZQ2HRW3Zw,"Monday: 6:30 AM – 10:00 PM
+Tuesday: 6:30 AM – 10:00 PM
+Wednesday: 6:30 AM – 10:00 PM
+Thursday: 6:30 AM – 10:00 PM
+Friday: 6:30 AM – 10:00 PM
+Saturday: 6:30 AM – 10:00 PM
+Sunday: Closed"
+2025-04-12T23:02:44.089986,Portillo's Chicago – Canal and Taylor,"520 West Taylor Street, Chicago",4.2,0.41,ChIJGXnZiOwsDogRSS0Hzk3qwjQ,"Monday: 10:00 AM – 1:00 AM
+Tuesday: 10:00 AM – 1:00 AM
+Wednesday: 10:00 AM – 1:00 AM
+Thursday: 10:00 AM – 1:00 AM
+Friday: 10:00 AM – 1:00 AM
+Saturday: 10:00 AM – 1:00 AM
+Sunday: 10:00 AM – 1:00 AM"
+2025-04-12T23:02:44.291670,Buffalo Wild Wings,"513 West Taylor Street, Chicago",3.1,0.42,ChIJQ8PH5ewsDogRbGmnrLnsKJY,"Monday: 11:00 AM – 12:00 AM
+Tuesday: 11:00 AM – 12:00 AM
+Wednesday: 11:00 AM – 12:00 AM
+Thursday: 11:00 AM – 1:00 AM
+Friday: 11:00 AM – 1:00 AM
+Saturday: 11:00 AM – 1:00 AM
+Sunday: 11:00 AM – 12:00 AM"
+2025-04-12T23:02:44.498260,Haire's Gulf Shrimp. South Loop,"1156 South Jefferson Street, Chicago",4.2,0.42,ChIJ8VHpMbYtDogRVGmALh_zuE4,"Monday: 11:00 AM – 6:00 PM
+Tuesday: 11:00 AM – 9:00 PM
+Wednesday: 11:00 AM – 9:00 PM
+Thursday: 11:00 AM – 9:00 PM
+Friday: 11:00 AM – 10:00 PM
+Saturday: 11:00 AM – 10:00 PM
+Sunday: 12:00 – 6:00 PM"
+2025-04-12T23:02:44.807866,Zeus Restaurant,"806 West Jackson Boulevard, Chicago",4.5,0.42,ChIJDSil18IsDogR2uzHbeQLJdI,"Monday: 11:00 AM – 10:00 PM
+Tuesday: 11:00 AM – 10:00 PM
+Wednesday: 11:00 AM – 10:00 PM
+Thursday: 11:00 AM – 10:00 PM
+Friday: 11:00 AM – 10:00 PM
+Saturday: 11:00 AM – 10:00 PM
+Sunday: 12:00 – 7:00 PM"
+2025-04-12T23:02:45.112155,IDOF - I Dream of Falafel,"1129 West Taylor Street, Chicago",4.2,0.43,ChIJdwU1suMsDogRiA5_wb-dnFE,"Monday: 11:00 AM – 9:00 PM
+Tuesday: 11:00 AM – 9:00 PM
+Wednesday: 11:00 AM – 9:00 PM
+Thursday: 11:00 AM – 9:00 PM
+Friday: 11:00 AM – 9:00 PM
+Saturday: 11:00 AM – 9:00 PM
+Sunday: 11:00 AM – 9:00 PM"
+2025-04-12T23:02:45.247350,Mr Greek Gyros - Halsted St,"234 South Halsted Street, Chicago",4.2,0.43,ChIJO6tY38IsDogRnC8OWyPCmK0,"Monday: 9:00 AM – 1:00 AM
+Tuesday: 9:00 AM – 1:00 AM
+Wednesday: 9:00 AM – 1:00 AM
+Thursday: 9:00 AM – 2:00 AM
+Friday: 9:00 AM – 2:00 AM
+Saturday: 9:00 AM – 2:00 AM
+Sunday: Closed"
+2025-04-12T23:02:45.725719,The Outpost Mexican Eatery,"520 West Harrison Street, Chicago",4.5,0.43,ChIJW4msYAgtDogRVDs2IQm2wWs,"Monday: 9:00 AM – 7:00 PM
+Tuesday: 9:00 AM – 7:00 PM
+Wednesday: 9:00 AM – 7:00 PM
+Thursday: 9:00 AM – 7:00 PM
+Friday: 9:00 AM – 7:00 PM
+Saturday: Closed
+Sunday: Closed"
+2025-04-12T23:02:46.043784,Subway,"808 West Jackson Boulevard, Chicago",3,0.43,ChIJfUfV1sIsDogRRwPqc3AEmHk,"Monday: 7:00 AM – 10:00 PM
+Tuesday: 7:00 AM – 10:00 PM
+Wednesday: 7:00 AM – 10:00 PM
+Thursday: 7:00 AM – 10:00 PM
+Friday: 7:00 AM – 10:00 PM
+Saturday: 9:00 AM – 5:00 PM
+Sunday: 9:00 AM – 5:00 PM"
+2025-04-12T23:02:46.439907,Himalayan Sherpa kitchen,"518 West Harrison Street, Chicago",4.9,0.43,ChIJ78_9x08tDogRem0NhFj9TLU,"Monday: Closed
+Tuesday: 11:00 AM – 8:30 PM
+Wednesday: 11:00 AM – 8:30 PM
+Thursday: 11:00 AM – 8:30 PM
+Friday: 11:00 AM – 8:30 PM
+Saturday: 11:00 AM – 8:30 PM
+Sunday: 11:00 AM – 8:30 PM"
+2025-04-12T23:02:46.648376,Panera Bread,"600 West Van Buren Street Suite 102, Chicago",2.6,0.43,ChIJVfwa88EsDogR9Rr2ErBjgH4,"Monday: 5:00 AM – 4:00 PM
+Tuesday: 5:00 AM – 4:00 PM
+Wednesday: 5:00 AM – 4:00 PM
+Thursday: 5:00 AM – 4:00 PM
+Friday: 5:00 AM – 4:00 PM
+Saturday: 6:00 AM – 2:00 PM
+Sunday: Closed"
+2025-04-12T23:02:46.864565,Tamashii Ramen,"810 West Jackson Boulevard, Chicago",4.5,0.43,ChIJr2WiS7otDogRJ4Lmj-vb95w,"Monday: 11:30 AM – 9:30 PM
+Tuesday: 11:30 AM – 9:30 PM
+Wednesday: 11:30 AM – 9:30 PM
+Thursday: 11:30 AM – 9:30 PM
+Friday: 11:30 AM – 10:00 PM
+Saturday: 11:30 AM – 10:00 PM
+Sunday: 11:30 AM – 9:30 PM"
+2025-04-12T23:02:47.057104,Popeyes Louisiana Kitchen,"1251 South Halsted Street, Chicago",3.7,0.43,ChIJC6v-JvAsDogRymsuNEbCSD8,"Monday: 10:00 AM – 12:30 AM
+Tuesday: 10:00 AM – 12:30 AM
+Wednesday: 10:00 AM – 12:30 AM
+Thursday: 10:00 AM – 12:30 AM
+Friday: 10:00 AM – 12:30 AM
+Saturday: 10:00 AM – 12:30 AM
+Sunday: 10:00 AM – 12:30 AM"
+2025-04-12T23:02:47.375560,Jimmy John's,"1133 West Taylor Street, Chicago",3.9,0.43,ChIJ98xQs-MsDogRWgmrNNocExM,"Monday: 10:00 AM – 8:00 PM
+Tuesday: 10:00 AM – 9:00 PM
+Wednesday: 10:00 AM – 9:00 PM
+Thursday: 10:00 AM – 9:00 PM
+Friday: 10:00 AM – 9:00 PM
+Saturday: 10:00 AM – 6:00 PM
+Sunday: 10:00 AM – 6:00 PM"
+2025-04-12T23:02:47.707551,ML Kitchen,"1138 West Taylor Street, Chicago",4.2,0.44,ChIJsTcJS-IsDogRdteuF4KMI3s,"Monday: 11:00 AM – 9:50 PM
+Tuesday: Closed
+Wednesday: 11:00 AM – 9:50 PM
+Thursday: 11:00 AM – 9:50 PM
+Friday: 11:00 AM – 9:50 PM
+Saturday: 11:00 AM – 9:50 PM
+Sunday: 11:00 AM – 9:50 PM"
