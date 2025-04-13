@@ -40,18 +40,23 @@ def get_cached_restaurants():
                 return cached_data
     return None
 
+#Opening hours must be a different function because it is a different API call
 def get_opening_hours(place_id):
     """Fetch opening hours for a place_id using Place Details API"""
+    #API URL
     details_url = "https://maps.googleapis.com/maps/api/place/details/json"
+    # params for the API call
     params = {
         "place_id": place_id,
         "fields": "opening_hours",
         "key": GOOGLE_API_KEY
     }
+    # Actually make the API call to get details
     response = requests.get(details_url, params=params)
     data = response.json()
-    
+
     if data.get('status') == 'OK':
+        # Get opening hours from the response(in JSON format)
         opening_hours = data['result'].get('opening_hours', {}).get('weekday_text', [])
         return "\n".join(opening_hours)
     return "N/A"
