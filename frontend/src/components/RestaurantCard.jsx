@@ -15,21 +15,22 @@ export default function RestaurantCard({restaurant}) {
         <div className={styles.layout}>
             {/* First Row */}
             <div className={styles.flexRow}>
-                <h2>{restaurant.name}</h2>
-                <p>{restaurant.address}</p>
-                {<p>{restaurant.distance} mi</p>}
+                <h2 style={{maxWidth: '50%'}}>{restaurant.name}</h2>
+                <p style={{maxWidth: '50%'}}>{restaurant.address}</p>
+                {restaurant.distance ? <p>{restaurant.distance} mi </p> : <></>}
             </div>
 
             {/* Second row */}
-            <div className={styles.flexRow}>
-                <p>Today's Hours: {restaurant.hours}</p>
-
-        
+            <div className={styles.flexRow} style={{justifyContent: "center"}}>
+                {restaurant.hours ? <p>Today's Hours: {restaurant.hours}</p> : <></>}
                 {/* Flames Fare */}
                 <FlamesFare restaurant={restaurant} />
 
+                <div style={{flexGrow: 1}}></div> {/* Force the hours to the left and the stars to the right*/}
+
                 {/* Stars */}
-                <div>
+                {restaurant.rating ?
+                <div style={{justifySelf:"flex-end"}}>
                     {Array.from({ length: Math.round(restaurant.rating) }, (_, index) => (
                         <Star fill="gold" stroke="gold" key={index} />
                     ))}
@@ -39,7 +40,8 @@ export default function RestaurantCard({restaurant}) {
                         <Star key={index} />
                     ))}
                 </div>
-
+                : <></>} {/* No rating */}
+                
             </div>
         </div>
     )
