@@ -1,13 +1,20 @@
 from flask import Flask, render_template, request
 import heapq
 import csv
+import datetime
 
 #Setup Flask app
 app = Flask(__name__)
 
 CSV_FILE = 'restaurants.csv'
 
-import heapq
+def getTodaysHours(hours):
+    today = datetime.datetime.now().strftime('%A')
+    lines = hours.strip().splitlines()
+    for line in lines:
+        if line.startswith(today):
+            return line
+    return None
 
 def dataByAttribute(attribute_index, csv_reader, maxFirst):
     pQueue = []
@@ -56,8 +63,14 @@ def home():
             headers = next(csv_reader)
             
             attribute_index = headers.index(attribute)  # get index of the attribute
-
             csv_data = dataByAttribute(attribute_index, csv_reader, maxFirst)
+        
+        hours_index = headers.index("hours")
+        # Change the opening hours to only show today's hours
+        for row in csv_data:
+            full_hours = row[hours_index]
+            row[hours_index] = getTodaysHours(full_hours)
+
 
             
     #sending data to the frontend
