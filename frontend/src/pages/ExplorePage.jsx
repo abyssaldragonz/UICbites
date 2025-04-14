@@ -12,59 +12,12 @@ import styles from './Page.module.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import RestaurantCard from '../components/RestaurantCard';
-import restaurantJSON from '../assets/sampleRestaurantInfo.json';
 import { usePapaParse } from 'react-papaparse';
 import csvFile from '../../../backend/restaurants.csv?raw';
-import { parse } from 'papaparse';
-
-let restaurantInfo = [];
-
-async function storeData(data) {
-    restaurantInfo = data;
-    console.log("CALLBACK FUNCTION");
-    // console.log(restaurantInfo);
-}
-
-
-async function parseData(callBack) {
-    const { readString } = usePapaParse();
-    const papaConfig = {
-            worker: true,
-            header: true,
-            skipEmptyLines: true,
-            complete: (results) => {
-                // console.log('---------------------------');
-                // console.log(results);
-                // console.log('---------------------------');
-                callBack(results.data);
-                restaurantInfo = results.data;
-            },
-        }
-    readString(csvFile, papaConfig);
-}
-
-
 
 
 export default function ExplorePage() {
     const [restaurantInfo, setData] = useState([]);
-
-    // const parseData = () => {
-    //     const { readString } = usePapaParse();
-    //     const papaConfig = {
-    //             worker: true,
-    //             header: true,
-    //             skipEmptyLines: true,
-    //             complete: (results) => {
-    //                 // console.log('---------------------------');
-    //                 // console.log(results);
-    //                 // console.log('---------------------------');
-    //                 setData(results.data);
-    //             },
-    //         }
-    //     readString(csvFile, papaConfig);
-    // }
-
 
     useEffect(() => {
         const { readString } = usePapaParse();
@@ -84,13 +37,7 @@ export default function ExplorePage() {
         console.log(restaurantInfo);
     }, []);
 
-    // setTimeout(()=> {
-    //     console.log(restaurantInfo);
-    //     console.log(restaurantInfo[0]);
-    // }, 1500);
-
     console.log(restaurantInfo);
-    console.log(restaurantInfo[0].name)
 
     return (
         <div className={styles.layout}>
