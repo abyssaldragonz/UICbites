@@ -1,3 +1,8 @@
+# RESOURCES
+# https://dev.to/ondiek/sending-data-from-react-to-flask-apm
+# https://www.geeksforgeeks.org/how-to-connect-reactjs-with-flask-api/
+# https://javascript.plainenglish.io/sending-a-post-to-your-flask-api-from-a-react-js-app-6496692514e
+
 import requests
 import time
 import csv

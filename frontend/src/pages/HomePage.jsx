@@ -17,7 +17,8 @@ export default function HomePage() {
                 </Link>
             </section>
 
-            <Link className={styles.link_styles} id={styles.highlight} to="/">
+            <h3>HIGHLIGHT OF THE WEEK!</h3>
+            <Link className={styles.link_styles} id={styles.highlight} to={`/`}>
                 <h3>highlight of the week</h3>
             </Link>
 

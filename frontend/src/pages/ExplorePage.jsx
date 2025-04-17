@@ -48,7 +48,7 @@ export default function ExplorePage() {
 
             <section id={styles.exploreSection}>                
                 {restaurantInfo && restaurantInfo.map((item, index) => (
-                    <RestaurantCard id={item.place_id} key={index} restaurant={item}></RestaurantCard>
+                    <RestaurantCard key={index} restaurant={item}></RestaurantCard>
                 ))}
             </section>    
 
