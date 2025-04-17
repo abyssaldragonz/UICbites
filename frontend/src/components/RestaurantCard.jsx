@@ -1,18 +1,27 @@
+import React, { useState } from 'react';
 import styles from './RestaurantCard.module.css';
+
+import flamesFareFile from '../../../backend/flamesFare.csv?raw';
+import studentDiscountFile from '../../../backend/studentDiscount.csv?raw';
 
 import Star from '../assets/star.svg?react';
 
 function FlamesFare({restaurant}) {
-    if (restaurant.flamesFare) {
-      return <div className={styles.flamesFare}> 🔥 FlamesFare Accepted 🔥</div>;
-    }
-    
-    return <></>;
-  }
+    return (flamesFareFile.includes(restaurant.place_id)) ? <div className={styles.flamesFare}> 🔥 FlamesFare Accepted 🔥</div> :     <></>;
+}
+
+function StudentDiscount({restaurant}) {
+    return (studentDiscountFile.includes(restaurant.place_id)) ? <div className={styles.studentDiscount}> 💳 Student Discount 💳</div> :     <></>;
+}
 
 export default function RestaurantCard({restaurant}) {
+    console.log(flamesFareFile.includes(restaurant.place_id))
+    // function
+    const [cardOpened, setOpened] = useState(false);
+    const openPopup = () => setOpened(prev => !prev);
+    
     return (
-        <div className={styles.layout}>
+        <button className={styles.layout} onClick={openPopup}>
             {/* First Row */}
             <div className={styles.flexRow}>
                 <h2 style={{maxWidth: '50%'}}>{restaurant.name}</h2>
@@ -20,11 +29,23 @@ export default function RestaurantCard({restaurant}) {
                 {restaurant.distance ? <p>{restaurant.distance} mi </p> : <></>}
             </div>
 
+
+            {/* Expanded View */}
+            {/* Every time we press on the card, it expands the details -- toggleable */}
+            {cardOpened && (<div>
+                    <h3 className={{}}>Directions</h3>
+                    {/* embed a map here!!!! */}
+                    <p>{restaurant.details}</p>
+                </div>
+            )}
+
+
             {/* Second row */}
-            <div className={styles.flexRow} style={{justifyContent: "center"}}>
-                {restaurant.hours ? <p>Today's Hours: {restaurant.hours}</p> : <></>}
+            <div className={styles.flexRow} style={{justifyContent: ""}}>
+                {restaurant.hours ? <p>{restaurant.hours}</p> : <></>}
                 {/* Flames Fare */}
                 <FlamesFare restaurant={restaurant} />
+                <StudentDiscount restaurant={restaurant} />
 
                 <div style={{flexGrow: 1}}></div> {/* Force the hours to the left and the stars to the right*/}
 
@@ -32,17 +53,17 @@ export default function RestaurantCard({restaurant}) {
                 {restaurant.rating ?
                 <div style={{justifySelf:"flex-end"}}>
                     {Array.from({ length: Math.round(restaurant.rating) }, (_, index) => (
-                        <Star fill="gold" stroke="gold" key={index} />
+                        <Star width="2rem" height="2rem" fill="gold" stroke="#FFBF3F" key={index} />
                     ))}
 
                     {/* empty stars */}
                     {Array.from({ length: 5-Math.round(restaurant.rating) }, (_, index) => (
-                        <Star key={index} />
+                        <Star  width="2rem" height="2rem" key={index} />
                     ))}
                 </div>
-                : <></>} {/* No rating */}
-                
-            </div>
-        </div>
+                : <></>} {/* No rating */} 
+            </div>            
+            
+        </button>
     )
 }

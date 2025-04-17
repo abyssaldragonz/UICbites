@@ -34,10 +34,10 @@ export default function ExplorePage() {
             }
         readString(csvFile, papaConfig);
 
-        console.log(restaurantInfo);
+        // console.log(restaurantInfo);
     }, []);
 
-    console.log(restaurantInfo);
+    // console.log(restaurantInfo);
 
     return (
         <div className={styles.layout}>
@@ -48,7 +48,7 @@ export default function ExplorePage() {
 
             <section id={styles.exploreSection}>                
                 {restaurantInfo && restaurantInfo.map((item, index) => (
-                    <RestaurantCard key={index} restaurant={item}></RestaurantCard>
+                    <RestaurantCard id={item.place_id} key={index} restaurant={item}></RestaurantCard>
                 ))}
             </section>    
 

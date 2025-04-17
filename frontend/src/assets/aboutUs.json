@@ -6,9 +6,7 @@
         "email": "",
         "site": "",
         "git": "https://github.com/aliceaxe",
-        "linked": "https://www.linkedin.com/in/alicemaxelsson/",
-        "description": "placeholder aobut desription",
-        "pic": "aaaaa somethign here woah"
+        "linked": "https://www.linkedin.com/in/alicemaxelsson/"
     },
     {
         "name": "Chris!",
@@ -17,9 +15,7 @@
         "email": "",
         "site": "",
         "git": "https://github.com/ToppiTheThinker",
-        "linked": "https://www.linkedin.com/in/christopherharrisoncs/",
-        "description": "aaaa placeholder about",
-        "pic": "image here woah"
+        "linked": "https://www.linkedin.com/in/christopherharrisoncs/"
     },
     {
         "name": "Josephine!",
@@ -28,8 +24,6 @@
         "email": "",
         "site": "",
         "git": "https://github.com/abyssaldragonz",
-        "linked": "https://www.linkedin.com/in/josephine-b-l/",
-        "description": "aboutttt us",
-        "pic": "do some pathway here like this /images/imageName.png"
+        "linked": "https://www.linkedin.com/in/josephine-b-l/"
     }
 ]

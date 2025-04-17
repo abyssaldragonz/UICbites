@@ -10,10 +10,6 @@ import LinkedinIcon from '../assets/linkedinIcon.svg?react';
 export default function AboutBox ({aboutBox}) {
     return (
         <div className={styles.layout}> 
-            
-            {/* Original image must be square! */}
-            <img className={styles.circle} src={`${aboutBox.pic}`} alt={''}/>
-
             <div className={styles.about}>
                 <h3 className={styles.title}>{aboutBox.title}</h3>
                 <h1 className={styles.name}>{aboutBox.name}</h1>
@@ -26,8 +22,6 @@ export default function AboutBox ({aboutBox}) {
                     {aboutBox?.linked ? (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.linked} target="_blank" rel="noopener noreferrer">   <LinkedinIcon   className={styles.imageLinks}  />    </Link>) : null}
                 </div>
             </div>
-
-            <p className={styles.description}>{aboutBox.description}</p>
         </div>
     );
 }
