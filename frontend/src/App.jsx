@@ -30,19 +30,7 @@ function ScrollToElement() {
 }
 
 function App() {
-  const [data, setData] = useState([{}])
-    fetch("/").then(
-      res => res.json()
-    ).then(
-      data => {
-        setData(data)
-        console.log(data)
-      }
-    )
-  useEffect(() => {
-
-  })
-
+  // Moved backend fetching to ExplorePage.jsx
   return (
     <>
       <Router>

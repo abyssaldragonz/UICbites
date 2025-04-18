@@ -1,13 +1,15 @@
-from flask import Flask, render_template, request
-import heapq
-import csv
-import datetime
+from flask import Flask, request, jsonify
+from flask_cors import CORS
+import heapq, csv, datetime
 
-#Setup Flask app
+# Setup Flask app and enable Cross-Origin Resource Sharing for React frontend
 app = Flask(__name__)
+CORS(app) # Needed cus frontend and backend are on different ports
 
+# CSV file containing restaurant data
 CSV_FILE = 'restaurants.csv'
 
+# Extract only today's hours from the full hours string
 def getTodaysHours(hours):
     today = datetime.datetime.now().strftime('%A')
     lines = hours.strip().splitlines()
@@ -16,68 +18,54 @@ def getTodaysHours(hours):
             return line
     return None
 
+# Sort the data by the given attribute using a priority queue
 def dataByAttribute(attribute_index, csv_reader, maxFirst):
     pQueue = []
     for row in csv_reader:
         try:
             value = float(row[attribute_index])
         except ValueError:
-            value = 0.0  #if missing, treat it as 0
-
-        priority = -value if maxFirst else value
+            value = 0.0  # If value is missing or invalid, treat as 0
+        priority = -value if maxFirst else value  # Max or min heap
         heapq.heappush(pQueue, (priority, row))
-
     return [item[1] for item in heapq.nsmallest(len(pQueue), pQueue)]
 
-# flask needs to route to the home page
-@app.route('/', methods=['GET', 'POST'])
+# API route to return sorted restaurant data as JSON
+@app.route('/api/data', methods=['POST'])
+def api_data():
+    # Expect JSON payload from frontend like: { sort_by: "rating_desc" }
+    data = request.get_json()
+    sort_by = data.get('sort_by', 'rating_desc')
 
-def home():
-    show_data = False
-    csv_data = []
-    headers = []
-
-    sort_by = request.form.get('sort_by') #read dropdown choice
+    # Determine sorting logic based on dropdown selection
     if sort_by == 'rating_desc':
-        attribute = 'rating'
-        maxFirst = True
+        attribute, maxFirst = 'rating', True
     elif sort_by == 'rating_asc':
-        attribute = 'rating'
-        maxFirst = False
+        attribute, maxFirst = 'rating', False
     elif sort_by == 'distance_asc':
-        attribute = 'distance'
-        maxFirst = False
+        attribute, maxFirst = 'distance', False
     elif sort_by == 'distance_desc':
-        attribute = 'distance'
-        maxFirst = True
+        attribute, maxFirst = 'distance', True
     else:
-        attribute = 'rating'
-        maxFirst = True  # default
+        attribute, maxFirst = 'rating', True  # Default fallback
 
-    
-    #When button is pressed
-    if request.method == 'POST':
-        show_data = True
-        with open(CSV_FILE, 'r', encoding='utf-8') as file:
-            csv_reader = csv.reader(file)
-            headers = next(csv_reader)
-            
-            attribute_index = headers.index(attribute)  # get index of the attribute
-            csv_data = dataByAttribute(attribute_index, csv_reader, maxFirst)
-        
-        hours_index = headers.index("hours")
-        # Change the opening hours to only show today's hours
-        for row in csv_data:
-            full_hours = row[hours_index]
-            row[hours_index] = getTodaysHours(full_hours)
+    # Read and process the CSV file
+    with open(CSV_FILE, 'r', encoding='utf-8') as file:
+        csv_reader = csv.reader(file)
+        headers = next(csv_reader)  # Read header row
+        attr_idx = headers.index(attribute)
+        hours_idx = headers.index("hours")
 
+        # Get sorted data based on selected attribute
+        sorted_data = dataByAttribute(attr_idx, csv_reader, maxFirst)
 
-            
-    #sending data to the frontend
-    return render_template('index.html', 
-                           show_data=show_data,
-                           headers=headers,
-                           csv_data=csv_data)
+        # Replace full hours with only today's hours
+        for row in sorted_data:
+            row[hours_idx] = getTodaysHours(row[hours_idx])
 
+    data_dicts = [dict(zip(headers, row)) for row in sorted_data] # convert to list of dicts
+    return jsonify(data_dicts) #jsonify the data for the frontend
+
+# Run the Flask app on localhost:5000
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5000)
