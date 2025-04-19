@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div className={styles.layout}>
             <Header />
             <h1> HI WELCOME TO ABOUT PAGE </h1>
-            <p> add info about why we did this project </p>
+            <p> We decided to make this project because it seems that every time we get hungry on campus, we always end up eating the same things because we don't know what options we have or what is affordable for us college students. We believe that we are not the only people that have this problem, so creating a website that compiles all nearby options and displays information about student discounts and flames fare acceptance would help everybody out. </p>
             <p> how it helps uic students </p>
             <p> credits </p>
             <p> etc </p>

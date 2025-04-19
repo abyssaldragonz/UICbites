@@ -24,7 +24,7 @@ Week 13
 - Discussed what we will do within the next week
     - Josephine and Chris will work together to integrate backend and frontend
     - Alice will put the UIC-specific data in a file to be read by the frontend ( to figure out whether to indicate a restaurant accepts flames fare or gives a UIC student discount)
-- We decided that we will probably do our meeting with our TA wednesday afternoon, but we will send the final email later this wekk
+- We decided that we will probably do our meeting with our TA wednesday afternoon, but we will send the final email later this week
     
 
 ## Action Items (Work In Progress):

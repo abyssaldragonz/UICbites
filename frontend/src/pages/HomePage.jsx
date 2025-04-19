@@ -23,7 +23,7 @@ export default function HomePage() {
             </Link>
 
             <h3> ABOUT </h3>
-            <p> some about us paragraph </p>
+            <p> Hi we are team 12! We decided to create a website that compiles all of the closest food options from around UIC into one place, in order to make it easier for students and faculty alike to decide what to eat on campus! Note that all distances are measured from Student Senter East.  </p>
 
             <Footer />
         </div>
