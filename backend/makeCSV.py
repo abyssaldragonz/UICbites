@@ -2,6 +2,7 @@
 # https://dev.to/ondiek/sending-data-from-react-to-flask-apm
 # https://www.geeksforgeeks.org/how-to-connect-reactjs-with-flask-api/
 # https://javascript.plainenglish.io/sending-a-post-to-your-flask-api-from-a-react-js-app-6496692514e
+# https://developers.google.com/maps/documentation/places/web-service/details !!!!!!!!
 
 import requests
 import time
@@ -101,7 +102,8 @@ def fetch_and_cache_restaurants():
                 place_lat = place['geometry']['location']['lat']
                 place_lng = place['geometry']['location']['lng']
                 place['distance'] = calculate_distance(LOCATION[0], LOCATION[1], place_lat, place_lng)
-        
+            if 'editorial_summary' in place: # https://stackoverflow.com/questions/44577246/google-places-api-place-description-summary
+                place['summary'] = place['editorial_summary']['overview']
         all_results.extend(data.get('results', []))
         next_page_token = data.get('next_page_token')
         page_count += 1
@@ -120,10 +122,10 @@ def fetch_and_cache_restaurants():
             'name': place.get('name', ''),
             'address': place.get('vicinity', ''),
             'rating': str(place.get('rating', '')),
+            'description': str(place.get('summary', '')),
             'distance': str(round(place.get('distance', 0), 2)),
             'place_id': place_id,
-            'hours': opening_hours,
-            'description': place.get('editorial_summary', '')
+            'hours': opening_hours
         })
 
 
@@ -136,7 +138,7 @@ def fetch_and_cache_restaurants():
     return csv_data
 
 def update_restaurants():
-    #Get the cached restaurants to see if we need to update
+    #Get the cached restaurants to see if we need to update    
     cached = get_cached_restaurants()
     if not cached:
         print("No valid cache found. Fetching fresh data...")
