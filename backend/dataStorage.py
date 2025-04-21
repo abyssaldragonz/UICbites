@@ -46,6 +46,10 @@ def api_data():
         attribute, maxFirst = 'distance', False
     elif sort_by == 'distance_desc':
         attribute, maxFirst = 'distance', True
+    elif sort_by == 'flames_fare':
+        attribute, maxFirst = 'distance', True # FIX THIS
+    elif sort_by == 'student_discount':
+        attribute, maxFirst = 'distance', True # FIX THIS
     else:
         attribute, maxFirst = 'rating', True  # Default fallback
 

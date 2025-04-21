@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <div className={styles.layout}>
             <Link to="/" style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-                <UICbitesIcon width="15rem" height="10rem" />
+                <UICbitesIcon width="10rem" height="5rem" />
             </Link>
 
             <div className={styles.linkContainer}>

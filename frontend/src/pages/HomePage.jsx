@@ -7,8 +7,8 @@ export default function HomePage() {
     return (
         <div className={styles.layout}>
             <Header />
-            <h2> HI WELCOME TO HOME PAGE </h2>
-            <h2> ADD A NAME HERE </h2>
+            <h1> WELCOME TO UICBITES </h1>
+            <h3> sharing crumbs of knowledge around UIC </h3>
 
             <section className={styles.explore}>
                 <input type="search" id="#searchRestaurant" placeholder="Search a restaurant (within 1 mile)" /><br /><br />
@@ -23,7 +23,14 @@ export default function HomePage() {
             </Link>
 
             <h3> ABOUT </h3>
-            <p> Hi we are team 12! We decided to create a website that compiles all of the closest food options from around UIC into one place, in order to make it easier for students and faculty alike to decide what to eat on campus! Note that all distances are measured from Student Senter East.  </p>
+            <p style={{margin: '0 10%'}}> Hello! 
+                <br /> We decided to create a website that compiles all of the closest food options from around UIC into one place, in order to make it easier for students and faculty alike to decide what to eat on campus! 
+                <br /> Note that all distances are measured from Student Center East. 
+            </p>
+            <br />
+            <Link className={styles.link_styles} to={`/about`}>
+                <h3>about us</h3>
+            </Link>
 
             <Footer />
         </div>

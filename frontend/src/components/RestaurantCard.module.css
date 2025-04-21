@@ -8,7 +8,7 @@
     width: 75%;
     height: fit-content;
     background-color: white;
-    color: #001E62;
+    color: var(--UICblue);
     border: none;
     border-radius: 3rem;
     padding: 1rem;
@@ -22,27 +22,29 @@
     justify-content: space-between;
     align-items: center;
     margin: 0rem 0rem;
-    width: 88%;
+    width: 95%;
 }
 
 /* FLAMES FARE */
 .flamesFare {
-    background-color: #001E62;
-    color: #D50032;
+    background-color: var(--UICblue);
+    color: var(--UICred);
     border-radius: 10rem;
     padding: 1rem;
     font-size: larger;
     font-weight: 700;
+    margin: 0rem 5rem;
 }
 
 /* STUDENT DISCOUNT */
 .studentDiscount {
-    background-color: #D50032;
-    color: #FFBF3F;
+    background-color: var(--UICred);
+    color: var(--UICgold);
     border-radius: 10rem;
     padding: 1rem;
     font-size: larger;
     font-weight: 700;
+    margin: 0rem 5rem;
 }
 
 /* TOUCH EVENTS */

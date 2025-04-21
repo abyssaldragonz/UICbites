@@ -122,7 +122,8 @@ def fetch_and_cache_restaurants():
             'rating': str(place.get('rating', '')),
             'distance': str(round(place.get('distance', 0), 2)),
             'place_id': place_id,
-            'hours': opening_hours
+            'hours': opening_hours,
+            'description': place.get('editorial_summary', '')
         })
 
 

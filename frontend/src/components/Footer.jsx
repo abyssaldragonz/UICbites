@@ -4,7 +4,7 @@ import styles from './HeaderFooter.module.css';
 export default function Footer() {
     return (
         <footer className={styles.footer}>
-            footer yippee
+            UICbites © 2025 &nbsp;||&nbsp; @aliceaxe // @toppithethinker // @abyssaldragonz
         </footer>
     )
 }

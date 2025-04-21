@@ -21,11 +21,11 @@
     margin: 0.5rem;
     font-size: 1.5rem;
     font-weight: 500;
-    color: #001E62;
+    color: var(--UICblue);
 }
 
 .name {
-    color: #D50032;
+    color: var(--UICred);
     margin: 0rem 0.5rem 0rem 0.5rem; 
     font-size: 3rem; 
     text-decoration: underline;
@@ -36,17 +36,6 @@
     margin: 0.5rem;
     font-size: 1.75rem; 
     font-weight: 300;
-}
-
-.circle {
-    width: 8rem;
-    height: 8rem;
-    background-color: #001E62;
-    border-radius: 50%;
-    float: left;
-    margin: 5px;
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
 }
 
 .linksBox {
@@ -62,7 +51,6 @@
     height: 3rem;
     width: 3rem;
     text-decoration: none;
-    fill: #001E62;
 }
 
 .description {

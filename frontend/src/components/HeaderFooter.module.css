@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #D50032;
-    box-shadow: 0em 0.1em 1em 0.3em #001E62;
+    background-color: var(--UICred);
+    box-shadow: 0em 0.1em 1em 0.3em var(--UICblue);
     padding: 0.5rem 2rem;
     height: fit-content;
     line-height: 0.5;
@@ -35,10 +35,11 @@
     border-radius: 20rem;
     height: fit-content;
     width: fit-content;
+    font-size: 0.75rem;
 }
 
 .footer {
-    background-color: #001E62;
+    background-color: var(--UICblue);
     color: aliceblue;   
     padding: 2rem 0;
     width: 100%;

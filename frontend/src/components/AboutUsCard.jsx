@@ -21,6 +21,7 @@ export default function AboutBox ({aboutBox}) {
                     {aboutBox?.git ?    (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.git} target="_blank" rel="noopener noreferrer">      <GithubIcon     className={styles.imageLinks}  />    </Link>) : null}
                     {aboutBox?.linked ? (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.linked} target="_blank" rel="noopener noreferrer">   <LinkedinIcon   className={styles.imageLinks}  />    </Link>) : null}
                 </div>
+
             </div>
         </div>
     );

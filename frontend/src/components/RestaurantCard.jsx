@@ -26,9 +26,9 @@ export default function RestaurantCard({restaurant}) {
         <button id={restaurant.place_id} className={styles.layout} onClick={openPopup}>
             {/* First Row */}
             <div className={styles.flexRow}>
-                <h2 style={{maxWidth: '50%'}}>{restaurant.name}</h2>
-                <p style={{maxWidth: '50%'}}>{restaurant.address}</p>
-                {restaurant.distance ? <p>{restaurant.distance} mi </p> : <></>}
+                <h2 style={{margin: '1rem 0 0.5rem 0', maxWidth: '45%', textAlign:'left'}}>{restaurant.name}</h2>
+                <p  style={{maxWidth: '45%'}}>{restaurant.address}</p>
+                {restaurant.distance ? <p  style={{minWidth: '10%', textAlign:'right'}}>{restaurant.distance} mi </p> : <></>}
             </div>
 
 
@@ -45,11 +45,12 @@ export default function RestaurantCard({restaurant}) {
             {/* Second row */}
             <div className={styles.flexRow} style={{justifyContent: ""}}>
                 {restaurant.hours ? <p>{restaurant.hours}</p> : <></>}
-                {/* Flames Fare */}
+                
+                <div style={{flexGrow: 1}}></div> {/* Force the hours to the left and the stars to the right*/}
+
+                {/* Flames Fare or Student Discount*/}
                 <FlamesFare restaurant={restaurant} />
                 <StudentDiscount restaurant={restaurant} />
-
-                <div style={{flexGrow: 1}}></div> {/* Force the hours to the left and the stars to the right*/}
 
                 {/* Stars */}
                 {restaurant.rating ?
