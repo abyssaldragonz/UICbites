@@ -9,9 +9,9 @@ export default function AboutPage() {
         <div className={styles.layout}>
             <Header />
             <h1>ABOUT US </h1>
-            <p style={{margin:'0 10%'}}> We decided to make this project because it seems that every time we get hungry on campus, we always end up eating the same things because we don't know what options we have or what is affordable for us college students. 
+            <p style={{margin:'0 10%'}}> We decided to make this project because it seems that every time we get hungry on campus, we end up eating the same things because we don't know what options we have or what is affordable for college students. 
                 <br /> <br /> 
-                We believe that we are not the only people that have this problem, so creating a website that compiles all nearby options and displays information about student discounts and Flames Fare acceptance would help everybody out. 
+                We believe that we are not the only ones with this problem, so creating a website that compiles all nearby options and displays information about student discounts and Flames Fare acceptance would help everybody out. 
                 <br /> <br /> 
                 This website helps students find options around campus based on what they require from the restaurant.
                 <br /> <br /> 
@@ -26,7 +26,7 @@ export default function AboutPage() {
                 ))}
             </section> 
 
-            <p style={{fontSize: 'medium', paddingTop: '3rem'}}>This project was built for our CS 351 (Advance Data Structures) course taught by Dr. Shanon Reckinger during the Spring 2025 semester</p>
+            <p style={{fontSize: 'medium', paddingTop: '3rem'}}>This project was built for our CS 351 (Advanced Data Structures) course taught by Dr. Shanon Reckinger during the Spring 2025 semester</p>
 
             <Footer />
         </div>
