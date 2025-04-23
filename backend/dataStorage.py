@@ -30,6 +30,17 @@ def dataByAttribute(attribute_index, csv_reader, maxFirst):
         heapq.heappush(pQueue, (priority, row))
     return [item[1] for item in heapq.nsmallest(len(pQueue), pQueue)]
 
+# Build list of restaurant names for autocomplete suggestions
+def makeRestaurantList():
+    restaurant_list = []
+    with open(CSV_FILE, encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            name = row.get('name')
+            if name:
+                restaurant_list.append(name)
+    return restaurant_list
+
 # API route to return sorted restaurant data as JSON
 @app.route('/api/data', methods=['POST'])
 def api_data():
@@ -69,6 +80,26 @@ def api_data():
 
     data_dicts = [dict(zip(headers, row)) for row in sorted_data] # convert to list of dicts
     return jsonify(data_dicts) #jsonify the data for the frontend
+
+
+@app.route("/autocomplete")
+def autocomplete():
+    query = request.args.get("query")
+
+    if not query:
+        return jsonify([])
+
+    query = query.lower()
+    suggestions = []
+
+    #read csv and compare query to restaurant names
+    restaurant_list = makeRestaurantList()
+    for name in restaurant_list:
+        if name.lower().startswith(query):
+            suggestions.append(name)
+
+    #return first 5 suggestions
+    return jsonify(suggestions[:5])
 
 # Run the Flask app on localhost:5000
 if __name__ == '__main__':
