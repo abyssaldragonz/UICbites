@@ -81,15 +81,15 @@ def api_highlight():
         rows = list(csv_reader)
 
         if not rows:
-            return jsonify({})  # Return empty JSON object if no data
+            return jsonify({})  # return empty JSON object if no data
 
         now = datetime.datetime.now()
-        # Get the current year and week
+        #Get the current year and week
         iso_year, iso_week, _ = now.isocalendar()
         # Get a random seed based on the current year and week
         seed = int(f"{iso_year}{iso_week}")
 
-        # Shuffle the rows using the seed
+        #Shuffle the rows using the seed
         rng = random.Random(seed)
         rng.shuffle(rows)
         chosen = rows[0]
@@ -97,7 +97,7 @@ def api_highlight():
         restaurant = dict(zip(headers, chosen))
         # Fix the hours to show only today's hours
         restaurant["hours"] = getTodaysHours(restaurant["hours"])
-        
+
         return jsonify(restaurant)
 
 
@@ -110,15 +110,8 @@ def api_top5():
         rating_idx = headers.index('rating')
         hours_idx = headers.index("hours")
 
-        heap = []
-        for row in csv_reader:
-            try:
-                rating = float(row[rating_idx])
-            except ValueError:
-                rating = 0.0
-            heapq.heappush(heap, (-rating, row))  # max-heap
-
-        top_5 = [heapq.heappop(heap)[1] for _ in range(min(5, len(heap)))]
+        rows = list(csv_reader)
+        top_5 = heapq.nlargest(5, rows, key=lambda row: float(row[rating_idx] or 0))
 
         for row in top_5:
             row[hours_idx] = getTodaysHours(row[hours_idx])
