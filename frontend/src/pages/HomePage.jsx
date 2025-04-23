@@ -8,6 +8,29 @@ import RestaurantCard from '../components/RestaurantCard';
 export default function HomePage() {
     const [highlight, setHighlight] = useState(null);
     const [topFive, setTopFive] = useState([]);
+    const [query, setQuery] = useState("");
+    const [suggestions, setSuggestions] = useState([]);
+
+    useEffect(() => {
+        if (!query) {
+            setSuggestions([]);
+            return;
+        }
+
+        const fetchSuggestions = async () => {
+            try {
+                const response = await fetch(`http://localhost:5000/autocomplete?query=${query}`);
+                const data = await response.json();
+                setSuggestions(data);
+            } catch (error) {
+                console.error("Error fetching suggestions:", error);
+            }
+        };
+
+        fetchSuggestions();
+    }, [query]);
+
+
 
     //BACKEND INTEGRATION: Mostly just for highlight of the week and 5 highest rated
     useEffect(() => {
