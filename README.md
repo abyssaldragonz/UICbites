@@ -90,13 +90,13 @@ Use this repository to store your code and collaborate throughout all FGP stages
 0. Install Python and NodeJS
 1. Clone or fork this repo
 2. Run the following commands in terminal
-3. `cd backend` 
-    *  `pip install -r requirements.txt`
-    * `flask --app dataStorage.py --debug run`
-4. `cd ..` 
-5. `cd frontend`
-    * `npm install`
-    * `npm run dev`
+3. `cd backend` to change directories to backend
+    *  `pip install -r requirements.txt` to install dependencies for python program
+    * `python dataStorage.py` run the backend
+4. In a new terminal window
+5. `cd frontend` to change directories to frontend
+    * `npm install` to install dependencies for react + vite frontend
+    * `npm run dev` run the frontend
 
 
 ## Contributors<!-- Required -->

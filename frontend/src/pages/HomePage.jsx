@@ -61,22 +61,20 @@ export default function HomePage() {
                 </Link>
             </section>
 
-            <h3>HIGHLIGHT OF THE WEEK!</h3>
-            <Link className={styles.link_styles} id={styles.highlight} to={`/`}>
+            <h2>HIGHLIGHT OF THE WEEK!</h2>
+            <div id={styles.highlight}>
                 {highlight && <RestaurantCard restaurant={highlight} />}
-            </Link>
-
-            <h3>TOP 5 HIGHEST RATED</h3>
-            <div>
-            {topFive.map((restaurant, index) => (
-                <div key={index}>
-                <RestaurantCard restaurant={restaurant} />
-                </div>
-            ))}
             </div>
+
+            <h2>TOP 5 HIGHEST RATED</h2>
+            <section id={styles.topFiveContainer}>
+                {topFive.map((restaurant, index) => (
+                    <RestaurantCard style={{margin: '3rem'}} key={index} restaurant={restaurant} />
+                ))}
+            </section>
             
 
-            <h3> ABOUT </h3>
+            <h2> ABOUT </h2>
             <p style={{margin: '0 10%'}}> Hello! 
                 <br /> We decided to create a website that compiles all of the closest food options from around UIC into one place, in order to make it easier for students and faculty alike to decide what to eat on campus! 
                 <br /> Note that all distances are measured from Student Center East. 

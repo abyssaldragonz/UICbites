@@ -53,8 +53,8 @@ export default function ExplorePage() {
             <option value="distance_desc">Distance (Far → Near)</option>
             <option value="rating_desc">Rating (High → Low)</option>
             <option value="rating_asc">Rating (Low → High)</option>
-            <option value="flames_fare">Rating (Low → High)</option>
-            <option value="student_discount">Rating (Low → High)</option>
+            <option value="flames_fare">FlamesFare</option>
+            <option value="student_discount">Student Discounts</option>
         </select>
       </div>
 
