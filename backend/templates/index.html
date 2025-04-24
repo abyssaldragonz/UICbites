@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurants CSV Viewer</title>
+</head>
+<body>
+    <h1>Restaurants Data</h1>
+    
+    <form method="POST">
+        <label for="sort_by">Sort by:</label>
+        <select name="sort_by" id="sort_by">
+            <option value="rating_desc">Rating (High to Low)</option>
+            <option value="rating_asc">Rating (Low to High)</option>
+            <option value="distance_asc">Distance (Low to High)</option>
+            <option value="distance_desc">Distance (High to Low)</option>
+        </select>
+        <button type="submit">Show Restaurant Data</button>
+    </form>
+    
+    
+
+    {% if show_data %}
+        <table>
+            <thead>
+                <tr>
+                    {% for header in headers %}
+                        <th>{{ header }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in csv_data %}
+                    <tr>
+                        {% for cell in row %}
+                            <td>{{ cell }}</td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endif %}
+</body>
+</html>

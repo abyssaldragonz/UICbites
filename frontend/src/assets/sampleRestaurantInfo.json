@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Panda Express",
+        "miles": "0.01 m",
+        "hours": "11am - 7pm",
+        "flamesFare": true,
+        "rating": 5
+    },
+    {
+        "name": "Chick-Fil-A",
+        "miles": "0.01 m",
+        "hours": "11am - 7pm",
+        "flamesFare": true,
+        "rating": 3
+    },
+    {
+        "name": "Moe's Southwest Grill",
+        "miles": "0.01 m",
+        "hours": "11am - 7pm",
+        "flamesFare": false,
+        "rating": 4
+    }
+]

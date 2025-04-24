@@ -1,0 +1,111 @@
+.layout {
+    font-family: 'FredokaOne';
+    padding: 0;
+    margin-top: 12rem;
+    align-content: start;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    padding: 5rem 0;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    margin: 10rem 0;
+    justify-items: center;
+}
+
+input {
+    background-color: aliceblue;
+    color: #919191;
+    border: none;
+    border-radius: 20rem;
+    margin: auto;
+    padding: 2rem;
+    text-align: left;
+    min-width: 75%;
+    font-size: 20px; 
+    left: 0rem;
+}
+
+input::-webkit-input-placeholder { 
+    position: fixed;
+    left: 2rem;
+    font-size: 20px; 
+}
+
+.link_styles {
+    display: inline-block;
+    background-color: #1E1E1E;
+    padding: 0.5rem 5em;
+    border-radius: 20rem;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+
+/* HOME PAGE */
+
+.explore {
+    background-color: #17214fc2;
+    padding: 10rem 0;
+}
+
+#highlight {
+    background-color: #587598b6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--UICblue);
+    padding: 0.5rem 15rem;
+    margin: auto;
+    margin-bottom: 10rem;
+    border-radius: 20rem;
+    height: fit-content;
+    width: fit-content;
+}
+
+#topFiveContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: auto;
+    margin-bottom: 10rem;
+    height: fit-content;
+    width: 75%;
+}
+
+/* EXPLORE PAGE */
+#exploreSection {
+    padding: 0;
+}
+
+#aboutSection {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.sortBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: larger;
+}
+
+.selection {
+    background-color: var(--UICred);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}

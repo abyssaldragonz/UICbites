@@ -1,0 +1,61 @@
+.layout {
+    font-family: 'FredokaOne';
+    background: #638dc89e;
+    border-radius: 1rem;
+    outline: 0.25rem solid #29274C;
+    border-radius: 3%;
+    width: 350px;
+    height: 225px;
+    padding: 15px;
+    text-align: left;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 15px;
+}
+
+.title {
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--UICblue);
+}
+
+.name {
+    color: var(--UICred);
+    margin: 0rem 0.5rem 0rem 0.5rem; 
+    font-size: 3rem; 
+    text-decoration: underline;
+}
+
+.tag {
+    color: #F2F7EB;
+    margin: 0.5rem;
+    font-size: 1.75rem; 
+    font-weight: 300;
+}
+
+.linksBox {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: -1.75rem 0.5rem 0rem 0.5rem;
+    user-select: none;
+    margin: 0rem 0.5rem;
+}
+
+.imageLinks {
+    height: 3rem;
+    width: 3rem;
+    text-decoration: none;
+}
+
+.description {
+    margin: 1rem 0.5rem;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+    font-size: 1rem;
+}

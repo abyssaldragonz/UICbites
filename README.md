@@ -1,9 +1,10 @@
-# Full Stack Group Project Template
-This repository is a template for your Full Stack Group Project. It includes a basic project structure, along with Markdown examples for weekly meeting notes and the project README.  
+# Full Stack Group Project - TEAM 12 
+## UICbites
+<!-- This repository is a template for your Full Stack Group Project. It includes a basic project structure, along with Markdown examples for weekly meeting notes and the project README.  
 
-Use this repository to store your code and collaborate throughout all FGP stages, starting from FGP3.  
+Use this repository to store your code and collaborate throughout all FGP stages, starting from FGP3.   -->
 
-**Note:** This layout is an example. The official requirements for your project README will be provided later in the course.  
+<!-- **Note:** This layout is an example. The official requirements for your project README will be provided later in the course.   -->
 
 ## About<!-- Required -->
 <!-- 
@@ -19,9 +20,7 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * and why to use this project.
 -->
--
--
--
+
 
 
 ## Demo<!-- Required -->
@@ -72,6 +71,9 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * Under production or will be updated.
 -->
+* [Figma!](https://www.figma.com/design/5VUkqPckBIicIMbQrbk4jS/CS-351-FGP?node-id=0-1&t=RyXG59s1DJZJwMDl-1)
+* ReactJS + Vite for frontend
+* Flask for backend
 
 
 <!-- - Use this html element to create a back to top button. -->
@@ -85,6 +87,16 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * 
 -->
+0. Install Python and NodeJS
+1. Clone or fork this repo
+2. Run the following commands in terminal
+3. `cd backend` to change directories to backend
+    *  `pip install -r requirements.txt` to install dependencies for python program
+    * `python dataStorage.py` run the backend
+4. In a new terminal window
+5. `cd frontend` to change directories to frontend
+    * `npm install` to install dependencies for react + vite frontend
+    * `npm run dev` run the frontend
 
 
 ## Contributors<!-- Required -->
@@ -93,7 +105,9 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * Generate github contributors Image here https://contrib.rocks/preview?repo=angular%2Fangular-ja
 -->
-
+<img src="https://github.com/aliceaxe.png" alt="aliceaxe" width="100"/>
+<img src="https://github.com/toppithethinker.png" alt="toppithethinker" width="100"/>
+<img src="https://github.com/abyssaldragonz.png" alt="abyssaldragonz" width="100"/>
 
 ## Acknowledgments<!-- Optional -->
 <!-- 
@@ -101,6 +115,9 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * Feel free to share your inspiration sources, Stackoverflow questions, github repos, tools etc.
 -->
+Shoutout to our CS 351 professor Dr. Shanon Reckinger, our Project Manager Daniel Barajas, and the University of Illinois at Chicago. 
+* Getting started with [ReactJS + Vite](https://vite.dev/guide/)
+* Getting started with [Python + Flask](https://flask.palletsprojects.com/en/stable/)
 
 
 <!-- - Use this html element to create a back to top button. -->
@@ -120,6 +137,20 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * 
 -->
+Alice Axelsson -- aaxel2@uic.edu
+[<img src="https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/github-icon.svg" alt="GitHub" height="30"/>](https://github.com/aliceaxe)
+[<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="LinkedIn" height="30"/>](https://linkedin.com/in/alicemaxelsson/)
+<br>
+
+Christopher Harrison -- charr31@uic.edu
+[<img src="https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/github-icon.svg" alt="GitHub" height="30"/>](https://github.com/toppithethinker)
+[<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="LinkedIn" height="30"/>](https://linkedin.com/in/christopherharrisoncs/)
+<br>
+
+Josephine Lee -- jlee936@uic.edu
+[<img src="https://gist.githubusercontent.com/cxmeel/0dbc95191f239b631c3874f4ccf114e2/raw/github-icon.svg" alt="GitHub" height="30"/>](https://github.com/abyssaldragonz)
+[<img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="LinkedIn" height="30"/>](https://linkedin.com/in/josephine-b-l/)
+<br>
 
 
 ## License<!-- Optional -->
