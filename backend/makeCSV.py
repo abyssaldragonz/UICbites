@@ -125,7 +125,8 @@ def fetch_and_cache_restaurants():
             'description': str(place.get('summary', '')),
             'distance': str(round(place.get('distance', 0), 2)),
             'place_id': place_id,
-            'hours': opening_hours
+            'hours': opening_hours,
+            'allHours': opening_hours
         })
 
 

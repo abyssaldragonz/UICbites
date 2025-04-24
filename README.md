@@ -12,6 +12,9 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * keep it short and sweet
 -->
+This website helps students find options around campus based on what they require from the restaurant.
+
+The goal is to provide students with a resource to find affordable food options close to campus.
 
 
 ## How to use this project<!-- Required -->
@@ -20,7 +23,11 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * and why to use this project.
 -->
+This website compiles 60 different food options around UIC campus, with the distances measured from Student Center East (SCE). This information is compiled into two pages. <br> <br>
 
+The home page features a search bar, where restaurant names can be inputted; []. The highlight of the week is also featured on this page, along with the top five rated restaurants from the dataset. <br> <br>
+
+The explore pages features all the food options around UIC, with an option to filter the search, such as by distance, by rating, [if they accept FlamesFare, or contain student discounts]. Each of the restaurant cards feature the address, the distance from UIC SCE, the rating as seen on Google Maps, and the current day's opening hours, if the restaurant have scheduled hours. Clicking on the cards opens up details about the restaurant, such as the full opening hours and [the directions to the restaurant from SCE]. 
 
 
 ## Demo<!-- Required -->
@@ -29,6 +36,7 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * It's recommended to use GIFs as they are more dynamic
 -->
+[]
 
 
 ## Table of Contents<!-- Optional -->
@@ -39,7 +47,6 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * If you are not familiar with HTML, no worries we all been there :D 
 * Review learning resources to create anchor links. 
 -->
-
 
 <dev align="center">
     <table align="center">
@@ -73,7 +80,7 @@ Use this repository to store your code and collaborate throughout all FGP stages
 -->
 * [Figma!](https://www.figma.com/design/5VUkqPckBIicIMbQrbk4jS/CS-351-FGP?node-id=0-1&t=RyXG59s1DJZJwMDl-1)
 * ReactJS + Vite for frontend
-* Flask for backend
+* Python + Flask for backend
 
 
 <!-- - Use this html element to create a back to top button. -->
@@ -87,6 +94,47 @@ Use this repository to store your code and collaborate throughout all FGP stages
 * 
 * 
 -->
+```
+/
+├── backend/
+│   └── __pycache__/
+│   |   └── .../
+│   └── static/
+│   |   └── .../
+│   └── templates/
+│   |   └── .../
+│   └── backendOnlyDataStorage.py
+│   └── dataStorage.py
+│   └── makeCSV.py
+│   └── restaurants.csv
+│   └── flamesFare.csv
+│   └── studentDiscount.csv
+│   └── requirements.txt
+├── frontend/
+│   └── .../
+│   └── public/
+│   |   └──UICbitesLOGO.svg
+│   |   └── .../
+│   └── src/
+│   |   └── assets/
+|   |      └── .../
+│   |   └── components/
+|   |      └── .../
+│   |   └── pages/
+|   |      └── .../
+│   └── .../
+│   └── App.jsx
+│   └── README.md/
+│   └── .../
+├── weekly-notes/
+│   └── .../
+├── fgp3.md
+├── README.md
+```
+<br>
+
+To run locally:
+
 0. Install Python and NodeJS
 1. Clone or fork this repo
 2. Run the following commands in terminal
@@ -130,6 +178,8 @@ Shoutout to our CS 351 professor Dr. Shanon Reckinger, our Project Manager Danie
 * 
 * Also it's common to add some PR guidance.
 -->
+To leave feedback or general inquiries, please contact the contributors. Contact information are listed [below in Contact](#contact).
+
 
 ## Contact<!-- Required -->
 <!-- 
@@ -159,7 +209,7 @@ Josephine Lee -- jlee936@uic.edu
 * 
 * check this website for an easy reference https://choosealicense.com/)
 -->
-
+© Spring 2025
 
 <!-- - Use this html element to create a back to top button. -->
 <p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>

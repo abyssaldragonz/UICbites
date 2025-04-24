@@ -38,13 +38,14 @@ export default function RestaurantCard({restaurant}) {
                     <h3 className={{}}>Directions</h3>
                     {/* embed a map here!!!! */}
                     <p>{restaurant.details}</p>
+                    {restaurant.allHours ? <p style={{whiteSpace: 'pre-line'}}>{restaurant.allHours}</p> : <p>No Opening Hours Available</p>}
                 </div>
             )}
 
 
             {/* Second row */}
             <div className={styles.flexRow} style={{justifyContent: ""}}>
-                {restaurant.hours ? <p>{restaurant.hours}</p> : <></>}
+                {restaurant.hours ? <p>{restaurant.hours}</p> : <p>No Opening Hours Available</p>}
                 
                 <div style={{flexGrow: 1}}></div> {/* Force the hours to the left and the stars to the right*/}
 

@@ -15,6 +15,8 @@ export default function AboutPage() {
                 <br /> <br /> 
                 This website helps students find options around campus based on what they require from the restaurant.
                 <br /> <br /> 
+                The goal is to provide students with a resource to find affordable food options close to campus.
+                <br /> <br /> 
                 This project was built for UIC students, by UIC students.
             </p>
             <br /> <br />
