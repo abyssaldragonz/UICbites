@@ -1,7 +1,7 @@
 {
   "name": "uic-bites",
   "private": true,
-  "proxy":"http://localhost:5000/",
+  "proxy": "http://localhost:5000/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -13,7 +13,7 @@
   "dependencies": {
     "papaparse": "^5.5.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react-dom": "^19.1.0",
     "react-papaparse": "^4.4.0",
     "react-router-dom": "^7.3.0"
   },
