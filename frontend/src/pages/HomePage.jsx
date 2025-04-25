@@ -11,6 +11,14 @@ export default function HomePage() {
     const [query, setQuery] = useState("");
     const [suggestions, setSuggestions] = useState([]);
 
+    // https://www.w3schools.com/jsref/event_onchange.asp
+    // https://stackoverflow.com/questions/574941/how-to-track-onchange-as-you-type-in-input-type-text
+    // https://medium.com/@masterrajpatel/how-to-use-onchange-event-in-reactjs-2e68ebfca8a6
+    // Function to change the query input that will be passed into backend
+    const handleSearchChange = (event) => {
+        setQuery(event.target.value)
+    };
+
     useEffect(() => {
         if (!query) {
             setSuggestions([]);
@@ -29,7 +37,6 @@ export default function HomePage() {
 
         fetchSuggestions();
     }, [query]);
-
 
 
     //BACKEND INTEGRATION: Mostly just for highlight of the week and 5 highest rated
@@ -55,7 +62,14 @@ export default function HomePage() {
             <h3> sharing crumbs of knowledge around UIC </h3>
 
             <section className={styles.explore}>
-                <input type="search" id="#searchRestaurant" placeholder="Search a restaurant (within 1 mile)" /><br /><br />
+                {/* Search Bar */}
+                <div style={{left: 0, right: 0, width: '75%'}}>
+                    <input type="search" id={styles.searchRestaurant} placeholder="Search a restaurant (within 1 mile)" onChange={handleSearchChange} /><br /><br />
+                </div>
+                {/* Results */}
+                {suggestions.map((restaurant, index) => (
+                    <RestaurantCard key={index} restaurant={restaurant} />
+                ))}
                 <Link className={styles.link_styles} to="/explore">
                     <h3>explore options</h3>
                 </Link>
@@ -69,7 +83,7 @@ export default function HomePage() {
             <h2>TOP 5 HIGHEST RATED</h2>
             <section id={styles.topFiveContainer}>
                 {topFive.map((restaurant, index) => (
-                    <RestaurantCard style={{margin: '3rem'}} key={index} restaurant={restaurant} />
+                    <RestaurantCard key={index} restaurant={restaurant} />
                 ))}
             </section>
             

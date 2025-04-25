@@ -1,12 +1,12 @@
 # Full Stack Group Project - TEAM 12 
-## UICbites
+## <img height=35 src="./frontend/public/UICbitesLOGO.svg"/> &nbsp; UICbites
 <!-- This repository is a template for your Full Stack Group Project. It includes a basic project structure, along with Markdown examples for weekly meeting notes and the project README.  
 
 Use this repository to store your code and collaborate throughout all FGP stages, starting from FGP3.   -->
 
 <!-- **Note:** This layout is an example. The official requirements for your project README will be provided later in the course.   -->
 
-## About<!-- Required -->
+## 🚀 About<!-- Required -->
 <!-- 
 * information about the project 
 * 
@@ -17,7 +17,7 @@ This website helps students find options around campus based on what they requir
 The goal is to provide students with a resource to find affordable food options close to campus.
 
 
-## How to use this project<!-- Required -->
+## ⚙️ How to use this project<!-- Required -->
 <!-- 
 * Here you may add information about how 
 * 
@@ -25,21 +25,21 @@ The goal is to provide students with a resource to find affordable food options 
 -->
 This website compiles 60 different food options around UIC campus, with the distances measured from Student Center East (SCE). This information is compiled into two pages. <br> <br>
 
-The home page features a search bar, where restaurant names can be inputted; []. The highlight of the week is also featured on this page, along with the top five rated restaurants from the dataset. <br> <br>
+The home page features a search bar, where restaurant names can be inputted; {}. The highlight of the week is also featured on this page, along with the top five rated restaurants from the dataset. <br> <br>
 
-The explore pages features all the food options around UIC, with an option to filter the search, such as by distance, by rating, [if they accept FlamesFare, or contain student discounts]. Each of the restaurant cards feature the address, the distance from UIC SCE, the rating as seen on Google Maps, and the current day's opening hours, if the restaurant have scheduled hours. Clicking on the cards opens up details about the restaurant, such as the full opening hours and [the directions to the restaurant from SCE]. 
+The explore pages features all the food options around UIC, with an option to filter the search, such as by distance, by rating, {if they accept FlamesFare, or contain student discounts}. Each of the restaurant cards feature the address, the distance from UIC SCE, the rating as seen on Google Maps, and the current day's opening hours, if the restaurant have scheduled hours. Clicking on the cards opens up details about the restaurant, such as the full opening hours and {the directions to the restaurant from SCE}. 
 
 
-## Demo<!-- Required -->
+## 📝 Demo<!-- Required -->
 <!-- 
 * You can add a demo here GH supports images/ GIFs/videos 
 * 
 * It's recommended to use GIFs as they are more dynamic
 -->
-[]
+{}
 
 
-## Table of Contents<!-- Optional -->
+## 🪶 Table of Contents<!-- Optional -->
 <!-- 
 * This section is optional, yet having a contents table 
 * helps keeping your README readable and more professional.
@@ -72,7 +72,7 @@ The explore pages features all the food options around UIC, with an option to fi
 <p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
 
 
-## Project Roadmap <!-- Optional --> <!-- add learning_Rs-->
+## 📌 Project Roadmap <!-- Optional --> <!-- add learning_Rs-->
 <!-- 
 * Add this section in case the project has different phases
 * 
@@ -88,7 +88,7 @@ The explore pages features all the food options around UIC, with an option to fi
 
 
 
-## Documentation<!-- Optional -->
+## 📜 Documentation<!-- Optional -->
 <!-- 
 * You may add any documentation or Wikis here
 * 
@@ -147,7 +147,7 @@ To run locally:
     * `npm run dev` run the frontend
 
 
-## Contributors<!-- Required -->
+## 🔧 Contributors<!-- Required -->
 <!-- 
 * Without contribution we wouldn't have open source. 
 * 
@@ -157,7 +157,7 @@ To run locally:
 <img src="https://github.com/toppithethinker.png" alt="toppithethinker" width="100"/>
 <img src="https://github.com/abyssaldragonz.png" alt="abyssaldragonz" width="100"/>
 
-## Acknowledgments<!-- Optional -->
+## 🔔 Acknowledgments<!-- Optional -->
 <!-- 
 * Credit where it's do 
 * 
@@ -172,16 +172,16 @@ Shoutout to our CS 351 professor Dr. Shanon Reckinger, our Project Manager Danie
 <p align="right"><a href="#how-to-use-this-project">back to top ⬆️</a></p>
 
 
-## Feedback<!-- Required -->
+## ✒️ Feedback<!-- Required -->
 <!-- 
 * You can add contacts information like your email and social media account 
 * 
 * Also it's common to add some PR guidance.
 -->
-To leave feedback or general inquiries, please contact the contributors. Contact information are listed [below in Contact](#contact).
+To leave feedback or general inquiries, please contact the contributors. Contact information are listed [below in Contact](#contact). Feedback is much appreciated! Thank you!
 
 
-## Contact<!-- Required -->
+## 🌐 Contact<!-- Required -->
 <!-- 
 * add your email and contact info here
 * 
@@ -203,7 +203,7 @@ Josephine Lee -- jlee936@uic.edu
 <br>
 
 
-## License<!-- Optional -->
+## 🔐 License<!-- Optional -->
 <!-- 
 * Here you can add project license for copyrights and distribution 
 * 

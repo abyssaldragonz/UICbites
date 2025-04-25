@@ -41,8 +41,9 @@ def makeRestaurantList():
         reader = csv.DictReader(csvfile)
         for row in reader:
             name = row.get('name')
+            id = row.get('place_id')
             if name:
-                restaurant_list.append(name)
+                restaurant_list.append((name, id, row))
     return restaurant_list
 
 # API route to return sorted restaurant data as JSON
@@ -102,9 +103,10 @@ def autocomplete():
 
     #read csv and compare query to restaurant names
     restaurant_list = makeRestaurantList()
-    for name in restaurant_list:
+    for name,id,place in restaurant_list:
+        place["hours"] = getTodaysHours(place["hours"]) # fix today's hours
         if name.lower().startswith(query):
-            suggestions.append(name)
+            suggestions.append(place)
 
     #return first 5 suggestions
     return jsonify(suggestions[:5])

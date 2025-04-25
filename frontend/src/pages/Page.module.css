@@ -27,7 +27,6 @@ input {
     margin: auto;
     padding: 2rem;
     text-align: left;
-    min-width: 75%;
     font-size: 20px; 
     left: 0rem;
 }
@@ -53,6 +52,10 @@ input::-webkit-input-placeholder {
 .explore {
     background-color: #17214fc2;
     padding: 10rem 0;
+}
+
+#searchRestaurant {
+    width: 100%;
 }
 
 #highlight {
