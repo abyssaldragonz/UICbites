@@ -51,7 +51,7 @@ input::-webkit-input-placeholder {
 
 .explore {
     background-color: #17214fc2;
-    padding: 10rem 0;
+    padding: 5rem 0 10rem 0;
 }
 
 #searchRestaurant {
@@ -65,7 +65,7 @@ input::-webkit-input-placeholder {
     align-items: center;
     justify-content: center;
     color: var(--UICblue);
-    padding: 0.5rem 15rem;
+    padding: 1rem 5rem;
     margin: auto;
     margin-bottom: 10rem;
     border-radius: 20rem;
@@ -82,7 +82,7 @@ input::-webkit-input-placeholder {
     margin: auto;
     margin-bottom: 10rem;
     height: fit-content;
-    width: 75%;
+    width: 95%;
 }
 
 /* EXPLORE PAGE */

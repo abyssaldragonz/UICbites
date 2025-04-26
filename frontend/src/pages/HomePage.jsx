@@ -64,6 +64,8 @@ export default function HomePage() {
             <section className={styles.explore}>
                 {/* Search Bar */}
                 <div style={{left: 0, right: 0, width: '75%'}}>
+                    <h2>SEARCH</h2>
+                    <h3 style={{color: '#ff0000'}}>NOTE: ALL DISTANCES ARE MEASURED FROM <span style={{textDecoration:'underline'}}>STUDENT CENTER EAST</span></h3>
                     <input type="search" id={styles.searchRestaurant} placeholder="Search a restaurant (within 1 mile)" onChange={handleSearchChange} /><br /><br />
                 </div>
                 {/* Results */}

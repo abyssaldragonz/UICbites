@@ -55,6 +55,7 @@ def api_data():
     # Expect JSON payload from frontend like: { sort_by: "rating_desc" }
     data = request.get_json()
     sort_by = data.get('sort_by', 'rating_desc')
+    data_csv_file = CSV_FILE
 
     # Determine sorting logic based on dropdown selection
     if sort_by == 'rating_desc':
@@ -66,14 +67,16 @@ def api_data():
     elif sort_by == 'distance_desc':
         attribute, maxFirst = 'distance', True
     elif sort_by == 'flames_fare':
-        attribute, maxFirst = 'distance', True # FIX THIS
+        data_csv_file = "flamesFare.csv"
+        attribute, maxFirst = 'rating', True
     elif sort_by == 'student_discount':
-        attribute, maxFirst = 'distance', True # FIX THIS
+        data_csv_file = "studentDiscount.csv"
+        attribute, maxFirst = 'rating', True
     else:
-        attribute, maxFirst = 'rating', True  # Default fallback
+        attribute, maxFirst = 'distance', True  # Default fallback
 
     # Read and process the CSV file
-    with open(CSV_FILE, 'r', encoding='utf-8') as file:
+    with open(data_csv_file, 'r', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
         headers = next(csv_reader)  # Read header row
         attr_idx = headers.index(attribute)
