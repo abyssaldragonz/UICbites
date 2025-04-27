@@ -5,6 +5,8 @@ import flamesFareFile from '../../../backend/flamesFare.csv?raw';
 import studentDiscountFile from '../../../backend/studentDiscount.csv?raw';
 // import getTodaysHours from '../../../backend/dataStorage.py';
 
+const GOOGLE_API_KEY = "AIzaSyAzkiho-nqUeLA5nx5pfOSkmvv50a90qMo"
+
 import Star from '../assets/star.svg?react';
 
 // flamesFare button component
@@ -36,7 +38,13 @@ export default function RestaurantCard({restaurant}) {
             {/* Every time we press on the card, it expands the details -- toggleable */}
             {cardOpened && (<div>
                     <h3 className={{}}>Directions:</h3>
-                    {/* embed a map here!!!! */}
+                    <iframe
+                        width="100%"
+                        height="300"
+                        style={{ border: 0 }}
+                        src={`https://www.google.com/maps/embed/v1/place?key=${GOOGLE_API_KEY}&q=place_id:${restaurant.place_id}`}
+                        allowFullScreen
+                        ></iframe>
                     <p>{restaurant.details}</p>
                     <h3 className={{}}>Opening Hours:</h3>
                     {restaurant.allHours ? <p style={{whiteSpace: 'pre-line'}}>{restaurant.allHours}</p> : <p>No Opening Hours Available</p>}
