@@ -27,7 +27,7 @@ This website compiles 60 different food options around UIC campus, with the dist
 
 The home page features a search bar, where restaurant names can be inputted; {}. The highlight of the week is also featured on this page, along with the top five rated restaurants from the dataset. <br> <br>
 
-The explore pages features all the food options around UIC, with an option to filter the search, such as by distance, by rating, {if they accept FlamesFare, or contain student discounts}. Each of the restaurant cards feature the address, the distance from UIC SCE, the rating as seen on Google Maps, and the current day's opening hours, if the restaurant have scheduled hours. Clicking on the cards opens up details about the restaurant, such as the full opening hours and {the directions to the restaurant from SCE}. 
+The explore pages features all the food options around UIC, with an option to filter the search, such as by distance, by rating, if they accept FlamesFare, or contain student discounts. Each of the restaurant cards feature the address, the distance from UIC SCE, the rating as seen on Google Maps, and the current day's opening hours, if the restaurant have scheduled hours. Clicking on the cards opens up details about the restaurant, such as the full opening hours and the directions to the restaurant from SCE. 
 
 
 ## 📝 Demo<!-- Required -->
@@ -36,7 +36,11 @@ The explore pages features all the food options around UIC, with an option to fi
 * 
 * It's recommended to use GIFs as they are more dynamic
 -->
-{}
+<video src="./uicbites_demo.mp4" allow="autoplay;" controls type="video/mp4" ></video>
+
+Video not loading? Here is a GIF!
+<img src="./uicbite_demo_gif.gif" />
+
 
 
 ## 🪶 Table of Contents<!-- Optional -->
