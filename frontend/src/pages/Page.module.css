@@ -65,12 +65,12 @@ input::-webkit-input-placeholder {
     align-items: center;
     justify-content: center;
     color: var(--UICblue);
-    padding: 1rem 5rem;
+    padding: 1rem;
     margin: auto;
     margin-bottom: 10rem;
-    border-radius: 20rem;
+    border-radius: 3rem;
     height: fit-content;
-    width: fit-content;
+    width: 95%;
 }
 
 #topFiveContainer {
@@ -107,6 +107,7 @@ input::-webkit-input-placeholder {
 }
 
 .selection {
+    font-family: 'Fredoka';
     background-color: var(--UICred);
     color: white;
     padding: 0.5rem 1rem;

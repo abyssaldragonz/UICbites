@@ -59,13 +59,20 @@ export default function HomePage() {
         <div className={styles.layout}>
             <Header />
             <h1> WELCOME TO UICBITES </h1>
-            <h3> sharing crumbs of knowledge around UIC </h3>
+            <h3 style={{fontFamily: 'Fredoka', fontSize:'30px', fontStyle:'italic' }}> Sharing crumbs of knowledge around UIC </h3>
+
+            <br />
+            <p style={{fontFamily: 'Fredoka', margin: '0 15%'}}>
+                <br /> We decided to create a website that compiles all of the closest food options from around UIC into one place, in order to make it easier for students and faculty alike to decide what to eat on campus! 
+                <br /> Note that all distances are measured from Student Center East. 
+            </p>
+            
 
             <section className={styles.explore}>
                 {/* Search Bar */}
                 <div style={{left: 0, right: 0, width: '75%'}}>
                     <h2>SEARCH</h2>
-                    <h3 style={{color: '#ff0000'}}>NOTE: ALL DISTANCES ARE MEASURED FROM <span style={{textDecoration:'underline'}}>STUDENT CENTER EAST</span></h3>
+                    <h3 style={{color: '#EEEEEE'}}>NOTE: ALL DISTANCES ARE MEASURED FROM <span style={{textDecoration:'underline'}}>STUDENT CENTER EAST</span></h3>
                     <input type="search" id={styles.searchRestaurant} placeholder="Search a restaurant (within 1 mile)" onChange={handleSearchChange} /><br /><br />
                 </div>
                 {/* Results */}
@@ -73,7 +80,7 @@ export default function HomePage() {
                     <RestaurantCard key={index} restaurant={restaurant} />
                 ))}
                 <Link className={styles.link_styles} to="/explore">
-                    <h3>explore options</h3>
+                    <h3>EXPLORE OPTIONS</h3>
                 </Link>
             </section>
 
@@ -90,14 +97,8 @@ export default function HomePage() {
             </section>
             
 
-            <h2> ABOUT </h2>
-            <p style={{margin: '0 10%'}}> Hello! 
-                <br /> We decided to create a website that compiles all of the closest food options from around UIC into one place, in order to make it easier for students and faculty alike to decide what to eat on campus! 
-                <br /> Note that all distances are measured from Student Center East. 
-            </p>
-            <br />
             <Link className={styles.link_styles} to={`/about`}>
-                <h3>about us</h3>
+                <h3>ABOUT US</h3>
             </Link>
 
             <Footer />
