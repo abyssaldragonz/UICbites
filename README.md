@@ -25,7 +25,7 @@ The goal is to provide students with a resource to find affordable food options 
 -->
 This website compiles 60 different food options around UIC campus, with the distances measured from Student Center East (SCE). This information is compiled into two pages. <br> <br>
 
-The home page features a search bar, where restaurant names can be inputted; {}. The highlight of the week is also featured on this page, along with the top five rated restaurants from the dataset. <br> <br>
+The home page features a search bar, where restaurant names can be inputted; when entering the a letter, all the restaurants in the database that starts with that letter will appear. The highlight of the week is also featured on this page, along with the top five rated restaurants from the dataset. <br> <br>
 
 The explore pages features all the food options around UIC, with an option to filter the search, such as by distance, by rating, if they accept FlamesFare, or contain student discounts. Each of the restaurant cards feature the address, the distance from UIC SCE, the rating as seen on Google Maps, and the current day's opening hours, if the restaurant have scheduled hours. Clicking on the cards opens up details about the restaurant, such as the full opening hours and the directions to the restaurant from SCE. 
 
@@ -98,6 +98,7 @@ Video not loading? Here is a GIF!
 * 
 * 
 -->
+Project structure:
 ```
 /
 ├── backend/
@@ -134,6 +135,7 @@ Video not loading? Here is a GIF!
 │   └── .../
 ├── fgp3.md
 ├── README.md
+├── .../
 ```
 <br>
 
@@ -143,11 +145,12 @@ To run locally:
 1. Clone or fork this repo
 2. Run the following commands in terminal
 3. `cd backend` to change directories to backend
-    *  `pip install -r requirements.txt` to install dependencies for python program
+    *  `pip install -r requirements.txt` to install dependencies for Python + Flask program
     * `python dataStorage.py` run the backend
+    * Note: There may be issues running this program in other Python environments such as Anaconda or Jupyter. 
 4. In a new terminal window
 5. `cd frontend` to change directories to frontend
-    * `npm install` to install dependencies for react + vite frontend
+    * `npm install` to install dependencies for React + Vite frontend
     * `npm run dev` run the frontend
 
 
@@ -157,9 +160,38 @@ To run locally:
 * 
 * Generate github contributors Image here https://contrib.rocks/preview?repo=angular%2Fangular-ja
 -->
-<img src="https://github.com/aliceaxe.png" alt="aliceaxe" width="100"/>
-<img src="https://github.com/toppithethinker.png" alt="toppithethinker" width="100"/>
-<img src="https://github.com/abyssaldragonz.png" alt="abyssaldragonz" width="100"/>
+<img src="https://github.com/aliceaxe.png" alt="aliceaxe" width="100"/> **Alice Axelsson**
+
+* project lead
+* worked on Figma design
+* compiled information about the website and the problem it solves
+* summarized information and about us 
+* wrote autocomplete algorithm using tries for backend by pulling the user input from frontend and inputting it into backend
+* maintained team and delegated tasks
+* hosted weekly meetings and facilitated discussion and responsibilites for each meeting
+
+<br /><br />
+<img src="https://github.com/toppithethinker.png" alt="toppithethinker" width="100"/> **Christopher Harrison**
+
+* backend developer
+* wrote API data fetching for backend in Flask and parsing the information into a csv
+* wrote backend to properly store information about the restaurant into a priority queue
+* developed functions to parse the current day's opening hours for each restaurant
+* wrote priority queue to use for the filtering system
+* integrated backend and frontend for priority queue for the highlight of the week and for the top five rated restaurants 
+* integrated maps overview for each restaurant
+
+<br /><br />
+<img src="https://github.com/abyssaldragonz.png" alt="abyssaldragonz" width="100"/> **Josephine Lee**
+
+* front-end developer
+* designed Figma and built frontend using React
+* created functionality for clickable restaurant cards to display additional information
+* wrote intgration for csv parsing to display in frontend
+* integrated backend and frontend functionality together for autocomplete 
+* gathered information for Flames Fare accepted restaurants
+* wrote filtering system for Flames Fare and student discount filters
+
 
 ## 🔔 Acknowledgments<!-- Optional -->
 <!-- 
@@ -169,7 +201,14 @@ To run locally:
 -->
 Shoutout to our CS 351 professor Dr. Shanon Reckinger, our Project Manager Daniel Barajas, and the University of Illinois at Chicago. 
 * Getting started with [ReactJS + Vite](https://vite.dev/guide/)
+    * React and Vite Libraries and Dependencies:
+    * `react`
+    * `react-dom`
+    * `react-router-dom`
+    * `react-papaparse`
+    * `vite-plugin-svgr`
 * Getting started with [Python + Flask](https://flask.palletsprojects.com/en/stable/)
+    * Flask was chosen for this project because {}
 
 
 <!-- - Use this html element to create a back to top button. -->
