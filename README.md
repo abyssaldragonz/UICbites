@@ -38,9 +38,9 @@ The explore pages features all the food options around UIC, with an option to fi
 * 
 * It's recommended to use GIFs as they are more dynamic
 -->
-<video src="./uicbites_demo.mp4" allow="autoplay;" controls type="video/mp4" ></video>
+**[Click here for a full video demo!](https://www.youtube.com/watch?v=bzxj5YOFMT8)**
 
-Video not loading? Here is a GIF!
+Here is a GIF!
 <img src="./uicbite_demo_gif.gif" />
 
 
@@ -143,17 +143,32 @@ Project structure:
 
 To run locally:
 
-0. Install Python and NodeJS
+0. Install VSCode, Python + pip, and NodeJS + npm
 1. Clone or fork this repo
 2. Run the following commands in terminal
-3. `cd backend` to change directories to backend
+3. Backend Setup
+    * `cd backend` to change directories to backend
+    * `python -m venv env` to create a new virtual environment 
+    * Activate the virtual environment
+        * For Windows : `.\env\Scripts\activate`
+        * For Mac : `source env/bin/activate`
+    * You will now see a `(venv)` infront of your command line
     *  `pip install -r requirements.txt` to install dependencies for Python + Flask program
-    * `python dataStorage.py` run the backend
-    * Note: There may be issues running this program in other Python environments such as Anaconda or Jupyter. 
-4. In a new terminal window
-5. `cd frontend` to change directories to frontend
+    * `set FLASK_APP=dataStorage.py` to set the flask app
+    * `flask --app dataStorage.py --debug run` to run the flask backend in debug mode
+        * You may also use `python dataStorage.py` run the backend without debug mode
+    * Your flask server will now be running on `localhost:PORT`! You can look at the terminal for the port number
+    * Note: The port may load a page that says `Not Found     The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.` 
+4. Frontend Setup
+    * In a new terminal window (using the `+` button on top right of the terminal)
+    * `cd frontend` to change directories to frontend
     * `npm install` to install dependencies for React + Vite frontend
     * `npm run dev` run the frontend
+    * Your React app is now running on `localhost:PORT`! You can follow the link from the terminal for the port number.
+
+5. Note: There may be issues running this program in other Python environments, especially on **MacOS**, such as Anaconda, Homebrew, or Jupyter. 
+    * If you are getting an error `no module named flask_cors`, reactivate your environment while in env by running `source env/bin/activate`
+
 
 
 ## 🔧 Contributors<!-- Required -->
@@ -203,12 +218,15 @@ To run locally:
 -->
 Shoutout to our CS 351 professor Dr. Shanon Reckinger, our Project Manager Daniel Barajas, and the University of Illinois at Chicago. 
 * Getting started with [ReactJS + Vite](https://vite.dev/guide/)
+    * [React + Vite README](./frontend/README.md)
     * React and Vite Libraries and Dependencies:
-    * `react`
-    * `react-dom`
-    * `react-router-dom`
-    * `react-papaparse`
-    * `vite-plugin-svgr`
+    * `papaparse` 5.5.2
+    * `react` ^19.0.0
+    * `react-dom` ^19.1.0
+    * `react-router-dom` ^7.3.0
+    * `react-papaparse` ^5.5.2
+    * `vite` 6.2.6
+    * `vite-plugin-svgr` ^4.3.0
 * Getting started with [Python + Flask](https://flask.palletsprojects.com/en/stable/)
     * Flask was chosen for this project because compared to Django, Flask has a much less of a learning curve. In addition, Flask is usually prefered for smaller apps, while Django for bigger apps.
     * We are happy with our choice to use Flask for this project and we would use it again.
