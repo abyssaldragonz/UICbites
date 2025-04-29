@@ -165,9 +165,9 @@ To run locally:
 <img src="https://github.com/aliceaxe.png" alt="aliceaxe" width="100"/> **Alice Axelsson**
 
 * project lead
-* worked on Figma design
+* worked on Figma design + overall flow of site
 * compiled information about the website and the problem it solves
-* summarized information and about us 
+* summarized information and wrote "about us" 
 * wrote autocomplete algorithm using tries for backend by pulling the user input from frontend and inputting it into backend
 * maintained team and delegated tasks
 * hosted weekly meetings and facilitated discussion and responsibilites for each meeting
