@@ -208,7 +208,7 @@ Shoutout to our CS 351 professor Dr. Shanon Reckinger, our Project Manager Danie
     * `react-papaparse`
     * `vite-plugin-svgr`
 * Getting started with [Python + Flask](https://flask.palletsprojects.com/en/stable/)
-    * Flask was chosen for this project because {}
+    * Flask was chosen for this project because compared to Django, flask has a much less of a learning curve. In addition, Flask is usually prefered for smaller apps, while Django for bigger ones.
 
 
 <!-- - Use this html element to create a back to top button. -->
