@@ -1,5 +1,7 @@
 # Full Stack Group Project - TEAM 12 
 ## <img height=35 src="./frontend/public/UICbitesLOGO.svg"/> &nbsp; UICbites
+sharing crumbs of knowledge around UIC
+
 <!-- This repository is a template for your Full Stack Group Project. It includes a basic project structure, along with Markdown examples for weekly meeting notes and the project README.  
 
 Use this repository to store your code and collaborate throughout all FGP stages, starting from FGP3.   -->
