@@ -5,6 +5,8 @@ import flamesFareFile from '../../../backend/flamesFare.csv?raw';
 import studentDiscountFile from '../../../backend/studentDiscount.csv?raw';
 // import getTodaysHours from '../../../backend/dataStorage.py';
 
+const GOOGLE_API_KEY = "AIzaSyAzkiho-nqUeLA5nx5pfOSkmvv50a90qMo"
+
 import Star from '../assets/star.svg?react';
 
 // flamesFare button component
@@ -28,23 +30,31 @@ export default function RestaurantCard({restaurant}) {
             <div className={styles.flexRow}>
                 <h2 style={{margin: '1rem 0 0.5rem 0', maxWidth: '45%', textAlign:'left'}}>{restaurant.name}</h2>
                 <p  style={{maxWidth: '45%'}}>{restaurant.address}</p>
-                {restaurant.distance ? <p  style={{minWidth: '10%', textAlign:'right'}}>{restaurant.distance} mi </p> : <></>}
+                {restaurant.distance ? <p  style={{minWidth: '10%', textAlign:'right', textDecoration:'underline', fontStyle:'italic'}}>{restaurant.distance} mi </p> : <></>}
             </div>
 
 
             {/* Expanded View */}
             {/* Every time we press on the card, it expands the details -- toggleable */}
             {cardOpened && (<div>
-                    <h3 className={{}}>Directions</h3>
-                    {/* embed a map here!!!! */}
+                    <h3 className={{}}>Directions:</h3>
+                    <iframe
+                        width="100%"
+                        height="300"
+                        style={{ border: 0 }}
+                        src={`https://www.google.com/maps/embed/v1/place?key=${GOOGLE_API_KEY}&q=place_id:${restaurant.place_id}`}
+                        allowFullScreen
+                        ></iframe>
                     <p>{restaurant.details}</p>
+                    <h3 className={{}}>Opening Hours:</h3>
+                    {restaurant.allHours ? <p style={{whiteSpace: 'pre-line'}}>{restaurant.allHours}</p> : <p>No Opening Hours Available</p>}
                 </div>
             )}
 
 
             {/* Second row */}
             <div className={styles.flexRow} style={{justifyContent: ""}}>
-                {restaurant.hours ? <p>{restaurant.hours}</p> : <></>}
+                {restaurant.hours ? <p>{restaurant.hours}</p> : <p>No Opening Hours Available</p>}
                 
                 <div style={{flexGrow: 1}}></div> {/* Force the hours to the left and the stars to the right*/}
 

@@ -1,3 +1,16 @@
-name,address,place_id
-Chick-fil-A,"Student Center East, 750 South Halsted Street, Chicago",ChIJ7zYpn-gsDogRDOpqPyFB-IM
-Panda Express,"750 South Halsted Street, Chicago",ChIJhdi4oegsDogROfZMlA98NzE
+last_updated,name,address,rating,description,distance,place_id,hours,allHours
+2025-04-24T13:54:56.151568,Panda Express,"750 South Halsted Street, Chicago",2.4,,0.0,ChIJhdi4oegsDogROfZMlA98NzE,,
+2025-04-24T13:54:56.410311,Chick-fil-A,"Student Center East, 750 South Halsted Street, Chicago",3.3,,0.02,ChIJ7zYpn-gsDogRDOpqPyFB-IM,"Monday: 7:30 AM – 8:00 PM
+Tuesday: 7:30 AM – 8:00 PM
+Wednesday: 7:30 AM – 8:00 PM
+Thursday: 7:30 AM – 8:00 PM
+Friday: 7:30 AM – 7:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed","Monday: 7:30 AM – 8:00 PM
+Tuesday: 7:30 AM – 8:00 PM
+Wednesday: 7:30 AM – 8:00 PM
+Thursday: 7:30 AM – 8:00 PM
+Friday: 7:30 AM – 7:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed"
+2025-04-24T13:54:56.801300,UIC United Table,"750 South Halsted Street, Chicago",1,,0.02,ChIJqzHZDwAtDogRwq6yveUB3r0,,

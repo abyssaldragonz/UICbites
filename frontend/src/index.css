@@ -4,8 +4,14 @@
     url('./assets/fredoka-one.one-regular.ttf')
 }
 
+@font-face {
+  font-family: "Fredoka";
+  src: local("RubikScribble-Regular"),
+    url('./assets/Fredoka_Regular_400.ttf')
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
   font-weight: 400;
 
@@ -47,16 +53,18 @@ h1 {
 }
 
 h2 {
+  font-family: 'FredokaOne';
   font-size: 2.5em;
   line-height: 1.1;
 }
 
 h3 {
+  font-family: 'FredokaOne';
   font-size: 1.5em;
 }
 
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Fredoka';
   font-size: 1.5rem;
 }
 

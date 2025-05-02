@@ -27,7 +27,6 @@ input {
     margin: auto;
     padding: 2rem;
     text-align: left;
-    min-width: 75%;
     font-size: 20px; 
     left: 0rem;
 }
@@ -52,7 +51,11 @@ input::-webkit-input-placeholder {
 
 .explore {
     background-color: #17214fc2;
-    padding: 10rem 0;
+    padding: 5rem 0 10rem 0;
+}
+
+#searchRestaurant {
+    width: 100%;
 }
 
 #highlight {
@@ -62,12 +65,12 @@ input::-webkit-input-placeholder {
     align-items: center;
     justify-content: center;
     color: var(--UICblue);
-    padding: 0.5rem 15rem;
+    padding: 1rem;
     margin: auto;
     margin-bottom: 10rem;
-    border-radius: 20rem;
+    border-radius: 3rem;
     height: fit-content;
-    width: fit-content;
+    width: 95%;
 }
 
 #topFiveContainer {
@@ -79,7 +82,7 @@ input::-webkit-input-placeholder {
     margin: auto;
     margin-bottom: 10rem;
     height: fit-content;
-    width: 75%;
+    width: 95%;
 }
 
 /* EXPLORE PAGE */
@@ -104,6 +107,7 @@ input::-webkit-input-placeholder {
 }
 
 .selection {
+    font-family: 'Fredoka';
     background-color: var(--UICred);
     color: white;
     padding: 0.5rem 1rem;

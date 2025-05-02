@@ -1,6 +1,66 @@
-name,address,place_id
-Busy Burger,"1120 West Taylor Street, Chicago",ChIJ9Uqwt-MsDogRRigrKEAscow
-Fontano's Subs,"1058 West Polk Street, Chicago",ChIJG5qZS-EsDogRzJ1usu42NU8
-Al's #1 Italian Beef,"1079 West Taylor Street, Chicago",ChIJ6SVtkeMsDogRhrNdhkJarlY
-Mr Greek Gyros - Halsted St,"234 South Halsted Street, Chicago",ChIJO6tY38IsDogRnC8OWyPCmK0
-Thai Bowl,"1049 West Taylor Street, Chicago",ChIJIS2xdeQsDogR6lM4WLXiLG4
+last_updated,name,address,rating,description,distance,place_id,hours,allHours
+2025-04-24T13:54:58.072315,Fontano's Subs,"1058 West Polk Street, Chicago",4.7,,0.28,ChIJG5qZS-EsDogRzJ1usu42NU8,"Monday: 9:00 AM – 6:00 PM
+Tuesday: 9:00 AM – 6:00 PM
+Wednesday: 9:00 AM – 6:00 PM
+Thursday: 9:00 AM – 6:00 PM
+Friday: 9:00 AM – 6:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed","Monday: 9:00 AM – 6:00 PM
+Tuesday: 9:00 AM – 6:00 PM
+Wednesday: 9:00 AM – 6:00 PM
+Thursday: 9:00 AM – 6:00 PM
+Friday: 9:00 AM – 6:00 PM
+Saturday: 9:00 AM – 4:00 PM
+Sunday: Closed"
+2025-04-24T13:54:58.687035,Thai Bowl,"1049 West Taylor Street, Chicago",4.2,,0.32,ChIJIS2xdeQsDogR6lM4WLXiLG4,"Monday: 11:00 AM – 7:30 PM
+Tuesday: 11:00 AM – 7:30 PM
+Wednesday: 11:00 AM – 7:30 PM
+Thursday: 11:00 AM – 7:30 PM
+Friday: 11:00 AM – 7:30 PM
+Saturday: 11:00 AM – 7:30 PM
+Sunday: 11:00 AM – 7:30 PM","Monday: 11:00 AM – 7:30 PM
+Tuesday: 11:00 AM – 7:30 PM
+Wednesday: 11:00 AM – 7:30 PM
+Thursday: 11:00 AM – 7:30 PM
+Friday: 11:00 AM – 7:30 PM
+Saturday: 11:00 AM – 7:30 PM
+Sunday: 11:00 AM – 7:30 PM"
+2025-04-24T13:54:59.524482,Al's #1 Italian Beef,"1079 West Taylor Street, Chicago",4.1,,0.36,ChIJ6SVtkeMsDogRhrNdhkJarlY,"Monday: 9:00 AM – 11:00 PM
+Tuesday: 9:00 AM – 11:00 PM
+Wednesday: 9:00 AM – 11:00 PM
+Thursday: 9:00 AM – 11:00 PM
+Friday: 9:00 AM – 11:00 PM
+Saturday: 10:00 AM – 11:00 PM
+Sunday: Closed","Monday: 9:00 AM – 11:00 PM
+Tuesday: 9:00 AM – 11:00 PM
+Wednesday: 9:00 AM – 11:00 PM
+Thursday: 9:00 AM – 11:00 PM
+Friday: 9:00 AM – 11:00 PM
+Saturday: 10:00 AM – 11:00 PM
+Sunday: Closed"
+2025-04-24T13:55:00.834563,Busy Burger,"1120 West Taylor Street, Chicago",4.4,,0.4,ChIJ9Uqwt-MsDogRRigrKEAscow,"Monday: 10:00 AM – 12:00 AM
+Tuesday: 10:00 AM – 12:00 AM
+Wednesday: 10:00 AM – 12:00 AM
+Thursday: 10:00 AM – 12:00 AM
+Friday: 10:00 AM – 12:00 AM
+Saturday: 10:00 AM – 12:00 AM
+Sunday: 10:00 AM – 12:00 AM","Monday: 10:00 AM – 12:00 AM
+Tuesday: 10:00 AM – 12:00 AM
+Wednesday: 10:00 AM – 12:00 AM
+Thursday: 10:00 AM – 12:00 AM
+Friday: 10:00 AM – 12:00 AM
+Saturday: 10:00 AM – 12:00 AM
+Sunday: 10:00 AM – 12:00 AM"
+2025-04-24T13:55:02.535845,Mr Greek Gyros - Halsted St,"234 South Halsted Street, Chicago",4.2,,0.43,ChIJO6tY38IsDogRnC8OWyPCmK0,"Monday: 9:00 AM – 1:00 AM
+Tuesday: 9:00 AM – 1:00 AM
+Wednesday: 9:00 AM – 1:00 AM
+Thursday: 9:00 AM – 2:00 AM
+Friday: 9:00 AM – 2:00 AM
+Saturday: 9:00 AM – 2:00 AM
+Sunday: Closed","Monday: 9:00 AM – 1:00 AM
+Tuesday: 9:00 AM – 1:00 AM
+Wednesday: 9:00 AM – 1:00 AM
+Thursday: 9:00 AM – 2:00 AM
+Friday: 9:00 AM – 2:00 AM
+Saturday: 9:00 AM – 2:00 AM
+Sunday: Closed"

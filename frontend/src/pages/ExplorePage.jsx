@@ -35,11 +35,8 @@ export default function ExplorePage() {
     <div className={styles.layout}>
       <Header />
       <h1>EXPLORE</h1>
-      <p>Listed are the options for food options around UIC. Click the food option to view a description and directions.</p>
-      <h2 style={{color: 'var(--UICred)'}}>NOTE: ALL DISTANCES ARE MEASURED FROM <span style={{textDecoration:'underline'}}>STUDENT CENTER EAST</span>
-      </h2>
-
-      <input style={{margin:'0 10%'}} type="search" id="#searchRestaurant" placeholder="Search a restaurant (within 1 mile)" /><br /><br />
+      <p>Listed are the options for food options around UIC.<br />Click the food option to view a description and directions.</p>
+      <h2 style={{color: 'var(--UICred)'}}>NOTE: ALL DISTANCES ARE MEASURED FROM <span style={{textDecoration:'underline'}}>STUDENT CENTER EAST</span></h2>
 
       <div className={styles.sortBar}>
         <label htmlFor="sort-select">Sort By:&nbsp;</label>
@@ -58,7 +55,7 @@ export default function ExplorePage() {
         </select>
       </div>
 
-      <section id={styles.exploreSection}>
+      <section id={styles.exploreSection} style={{marginTop: '3rem'}}>
         {restaurantInfo.length > 0 ? (
           restaurantInfo.map((item, index) => (
             <RestaurantCard key={index} restaurant={item} />
