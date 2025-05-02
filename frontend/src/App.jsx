@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 import {useLocation, BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import HomePage from '../src/pages/HomePage';
 import ExplorePage from '../src/pages/ExplorePage';
 import AboutPage from '../src/pages/AboutPage';
@@ -31,7 +32,7 @@ function App() {
   // Moved backend fetching to ExplorePage.jsx
   return (
     <>
-      <Router>
+      <Router basename="/UICbites">
         <ScrollToElement />
         <Routes>
           <Route path='/' element= {<HomePage />} />

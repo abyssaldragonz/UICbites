@@ -2,6 +2,7 @@
 sharing crumbs of knowledge around UIC
 
 ## Full Stack Group Project - TEAM 12 
+VISIT [UICBITES](https://abyssaldragonz.github.io/UICbites/)
 
 <!-- This repository is a template for your Full Stack Group Project. It includes a basic project structure, along with Markdown examples for weekly meeting notes and the project README.  
 
