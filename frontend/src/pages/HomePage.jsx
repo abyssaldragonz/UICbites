@@ -86,14 +86,16 @@ export default function HomePage() {
 
             <h2>HIGHLIGHT OF THE WEEK!</h2>
             <div id={styles.highlight}>
-                {highlight && <RestaurantCard restaurant={highlight} />}
+                {highlight ? <RestaurantCard restaurant={highlight} /> : (<p>Loading highlight of tht week...</p>)}
             </div>
 
             <h2>TOP 5 HIGHEST RATED</h2>
             <section id={styles.topFiveContainer}>
-                {topFive.map((restaurant, index) => (
+                {topFive ? 
+                topFive.map((restaurant, index) => (
                     <RestaurantCard key={index} restaurant={restaurant} />
-                ))}
+                )) : (<p>Loading top five...</p>)
+                }
             </section>
             
 
