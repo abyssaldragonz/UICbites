@@ -16,7 +16,7 @@ export default function AboutBox ({aboutBox}) {
                 <p className={styles.tag}>{aboutBox.tag}</p>
 
                 <div className={styles.linksBox}>
-                    {aboutBox?.email ?  (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.email} target="_blank" rel="noopener noreferrer">    <MailIcon       className={styles.imageLinks}  />    </Link>) : null}
+                    {aboutBox?.email ?  (<Link style={{height: '0px', textDecoration: 'none'}} to={`mailto:${aboutBox.email}`} target="_blank" rel="noopener noreferrer">    <MailIcon       className={styles.imageLinks}  />    </Link>) : null}
                     {aboutBox?.site ?   (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.site} target="_blank" rel="noopener noreferrer">     <InternetIcon   className={styles.imageLinks}  />    </Link>) : null}
                     {aboutBox?.git ?    (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.git} target="_blank" rel="noopener noreferrer">      <GithubIcon     className={styles.imageLinks}  />    </Link>) : null}
                     {aboutBox?.linked ? (<Link style={{height: '0px', textDecoration: 'none'}} to={aboutBox.linked} target="_blank" rel="noopener noreferrer">   <LinkedinIcon   className={styles.imageLinks}  />    </Link>) : null}
